@@ -6135,7 +6135,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at -12.7 137.16 0)
+		(at -11.43 116.84 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6144,7 +6144,7 @@
 		(fields_autoplaced yes)
 		(uuid "074ea07f-f632-4066-b633-cab5ee8b6c80")
 		(property "Reference" "U11"
-			(at -12.7 127 0)
+			(at -11.43 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6152,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at -12.7 129.54 0)
+			(at -11.43 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +6160,7 @@
 			)
 		)
 		(property "Footprint" "Package_CSP:LFCSP-8_2x2mm_P0.5mm"
-			(at -12.7 137.16 0)
+			(at -11.43 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +6169,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at -12.7 137.16 0)
+			(at -11.43 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,7 +6178,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at -12.7 137.16 0)
+			(at -11.43 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
