@@ -6681,6 +6681,17 @@
 		)
 		(uuid "3dcccd4b-2408-4b9e-806f-857f08f277df")
 	)
+	(label "DSP_SPI_NSS"
+		(at 280.67 168.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f1d06bf-3c67-46e1-a1be-368933355a84")
+	)
 	(label "MCU_VDD"
 		(at 102.87 128.27 180)
 		(fields_autoplaced yes)
@@ -6802,6 +6813,17 @@
 		)
 		(uuid "53b14b06-a5fa-4f6d-a1de-5c9b87a70e31")
 	)
+	(label "DSP_SPI_MISO"
+		(at 275.59 168.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56720512-20cc-4bad-a61a-f2a5dc129263")
+	)
 	(label "BTN1"
 		(at 191.77 80.01 90)
 		(fields_autoplaced yes)
@@ -6889,6 +6911,17 @@
 			(justify right bottom)
 		)
 		(uuid "6a872a9d-72d3-42b7-af09-096ee9b04785")
+	)
+	(label "DSP_SPI_MOSI"
+		(at 278.13 168.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b7154e9-19eb-4d9b-8761-0389a6c70c55")
 	)
 	(label "BTN9"
 		(at 214.63 80.01 90)
@@ -7087,6 +7120,17 @@
 			(justify left bottom)
 		)
 		(uuid "9c160389-765b-48f4-a080-3afe35aa1ed5")
+	)
+	(label "DSP_SPI_SCK"
+		(at 273.05 168.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9eea81cb-7cba-4ce7-89b9-9fce635b2486")
 	)
 	(label "SWIO"
 		(at 111.76 46.99 270)
