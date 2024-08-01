@@ -1,0 +1,187 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "14016714-be38-456a-a0ea-41b685d63f63")
+	(paper "A4")
+	(lib_symbols)
+	(text "TRISOFT H.D/S.D\n\nCONFIDENTIAL\nDO NOT SHARE"
+		(exclude_from_sim no)
+		(at 11.684 90.17 0)
+		(effects
+			(font
+				(size 17.78 17.78)
+			)
+			(justify left)
+		)
+		(uuid "1a57f1fe-83ce-4ff1-b003-900c71b88a11")
+	)
+	(text "ModuMixer X16"
+		(exclude_from_sim no)
+		(at 9.652 23.114 0)
+		(effects
+			(font
+				(size 17.78 17.78)
+			)
+			(justify left)
+		)
+		(uuid "4a19f99a-a35b-4da3-98cd-4641ed75fad0")
+	)
+	(sheet
+		(at -25.4 63.5)
+		(size 22.86 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72c767e5-5676-4297-a306-8bb233fb9793")
+		(property "Sheetname" "Connectors"
+			(at -25.4 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at -25.4 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Input Module"
+				(path "/14016714-be38-456a-a0ea-41b685d63f63"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -26.67 41.91)
+		(size 17.78 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95a2613a-ca9a-4e67-941a-0f25f8435358")
+		(property "Sheetname" "Power supply"
+			(at -26.67 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power supply.kicad_sch"
+			(at -26.67 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Input Module"
+				(path "/14016714-be38-456a-a0ea-41b685d63f63"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -43.18 88.9)
+		(size 27.94 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cede553e-61bc-452d-8fef-4287a2dd5386")
+		(property "Sheetname" "Fader"
+			(at -43.18 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Fader.kicad_sch"
+			(at -43.18 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Input Module"
+				(path "/14016714-be38-456a-a0ea-41b685d63f63"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -26.67 19.05)
+		(size 20.32 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc8ac0d8-425f-4a0c-bfbb-552c162c06b6")
+		(property "Sheetname" "Core logic"
+			(at -26.67 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Core Logic.kicad_sch"
+			(at -26.67 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Input Module"
+				(path "/14016714-be38-456a-a0ea-41b685d63f63"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
