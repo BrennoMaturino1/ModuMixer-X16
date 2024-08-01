@@ -1451,6 +1451,17 @@
 		)
 		(uuid "3cef621c-c6ca-40bf-b954-4bf065bca9c7")
 	)
+	(label "5V_MAIN"
+		(at 106.68 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e5d0c06-eda0-45c1-9b9b-d252ce288266")
+	)
 	(label "FADER_MOTOR_OUT1"
 		(at 92.71 60.96 180)
 		(fields_autoplaced yes)
@@ -1670,7 +1681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "040019b3-5bd0-4c26-a2bc-a038168b710d")
-		(property "Reference" "U8"
+		(property "Reference" "U10"
 			(at 58.0741 59.69 0)
 			(effects
 				(font
@@ -1771,7 +1782,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -1787,7 +1798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26714748-40d0-4947-b2df-f4c7ffae53da")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR097"
 			(at 55.88 68.58 0)
 			(effects
 				(font
@@ -1837,7 +1848,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR078")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -1853,7 +1864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26d356b6-2a04-43b3-9227-6ec5c8847795")
-		(property "Reference" "R9"
+		(property "Reference" "R13"
 			(at 109.2199 22.86 0)
 			(effects
 				(font
@@ -1907,7 +1918,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "R9")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1923,7 +1934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c3e2e46-34c1-4f81-8cee-74546e35ca85")
-		(property "Reference" "C46"
+		(property "Reference" "C70"
 			(at 109.2199 41.91 0)
 			(effects
 				(font
@@ -1977,7 +1988,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "C46")
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -2061,7 +2072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ad4311-5c88-4be7-8d00-87616a0f6780")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR098"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -2112,7 +2123,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR080")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -2128,7 +2139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74d15b13-57ea-4eb0-8f7c-a058d1060700")
-		(property "Reference" "C45"
+		(property "Reference" "C69"
 			(at 109.2199 31.75 0)
 			(effects
 				(font
@@ -2182,7 +2193,73 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "C45")
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87448a48-bda4-443b-bedd-01954e92cf87")
+		(property "Reference" "#PWR0100"
+			(at 120.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "664b9a04-5921-41c0-bb57-f37976618588")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -2198,7 +2275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90824a4e-3d4d-49d3-a7ee-2a1c98651f90")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 100.33 60.9599 0)
 			(effects
 				(font
@@ -2252,7 +2329,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2268,7 +2345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ecbf15c-82d7-4e91-9cc0-1f7c48261836")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR096"
 			(at 34.29 41.91 0)
 			(effects
 				(font
@@ -2319,7 +2396,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR077")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -2335,7 +2412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a42ebd6c-9986-4ba4-a83f-433340abb3f7")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 100.33 74.9299 0)
 			(effects
 				(font
@@ -2392,7 +2469,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2476,7 +2553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c84b0bdd-346b-4e87-a793-bd9ebb6b4cf9")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR099"
 			(at 120.65 35.56 0)
 			(effects
 				(font
@@ -2526,7 +2603,75 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR079")
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce7145f8-e5a7-45a3-95b6-75a32f94f6df")
+		(property "Reference" "C71"
+			(at 110.49 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 110.49 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 114.3 56.1848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f91c0d7f-fc89-4032-af37-c5e7b1955a16")
+		)
+		(pin "1"
+			(uuid "4d48f8f7-b1bf-4fdd-be59-69ea5474c5ca")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
+					(reference "C71")
 					(unit 1)
 				)
 			)
@@ -2542,7 +2687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3f2b947-f0b0-4422-bd81-d99f7f96ce58")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR095"
 			(at 34.29 39.37 0)
 			(effects
 				(font
@@ -2593,7 +2738,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR076")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
