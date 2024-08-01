@@ -16,7 +16,7 @@
 		)
 		(uuid "600da7ae-ba73-4850-a300-538823709b95")
 	)
-	(text "TRISOFT H.D/P.P/S.D\n\nCONFIDENTIAL\nDO NOT SHARE"
+	(text "TRISOFT H.D/S.D\n\nCONFIDENTIAL\nDO NOT SHARE"
 		(exclude_from_sim no)
 		(at 11.938 90.678 0)
 		(effects
