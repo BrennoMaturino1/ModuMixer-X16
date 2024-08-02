@@ -1,0 +1,111 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fadb9020-91eb-42b2-bae5-fc377ddb2855")
+	(paper "A4")
+	(lib_symbols)
+	(text "ModuMixer X16"
+		(exclude_from_sim no)
+		(at 13.208 25.146 0)
+		(effects
+			(font
+				(size 17.78 17.78)
+			)
+			(justify left)
+		)
+		(uuid "2b9bc1dd-6c4e-4d84-9e69-d590cc64beec")
+	)
+	(text "TRISOFT H.D/S.D\n\nCONFIDENTIAL\nDO NOT SHARE"
+		(exclude_from_sim no)
+		(at 15.24 92.202 0)
+		(effects
+			(font
+				(size 17.78 17.78)
+			)
+			(justify left)
+		)
+		(uuid "6ae593fa-7ad1-4d54-aeb0-b162787911fa")
+	)
+	(sheet
+		(at -22.86 2.54)
+		(size 22.86 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4293494-7626-4d4b-b505-ae5729cac456")
+		(property "Sheetname" "Output circuit"
+			(at -22.86 1.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output circuit.kicad_sch"
+			(at -22.86 22.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Output module"
+				(path "/fadb9020-91eb-42b2-bae5-fc377ddb2855"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at -22.86 27.94)
+		(size 24.13 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca2f526a-1e07-48bd-8587-9402a57efd21")
+		(property "Sheetname" "Connectors"
+			(at -22.86 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at -22.86 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Output module"
+				(path "/fadb9020-91eb-42b2-bae5-fc377ddb2855"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
