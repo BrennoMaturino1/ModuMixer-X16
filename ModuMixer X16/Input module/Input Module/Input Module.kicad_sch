@@ -5,7 +5,7 @@
 	(uuid "14016714-be38-456a-a0ea-41b685d63f63")
 	(paper "A4")
 	(lib_symbols)
-	(text "TRISOFT H.D/S.D\n\nCONFIDENTIAL\nDO NOT SHARE"
+	(text "TRISOFT H.D/S.D\n\nPRE-RELEASE\nOPEN SOURCE"
 		(exclude_from_sim no)
 		(at 11.684 90.17 0)
 		(effects
