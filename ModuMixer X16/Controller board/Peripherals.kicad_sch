@@ -2629,20 +2629,6 @@
 		)
 		(uuid "ceca5e4b-d2b8-4f49-a199-51b78be667bf")
 	)
-	(text "Peripherals"
-		(exclude_from_sim no)
-		(at 195.58 161.798 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.4064)
-				(bold yes)
-				(italic yes)
-				(color 132 0 0 1)
-			)
-		)
-		(uuid "db9f5321-659b-4585-b3b8-7408433ab3ff")
-	)
 	(label "ENCODER1_A"
 		(at 45.72 120.65 180)
 		(fields_autoplaced yes)
@@ -2973,7 +2959,7 @@
 		)
 		(uuid "423385ea-fe60-4eda-9bf3-6bc1958c23ae")
 	)
-	(label "ENCODER4_A"
+	(label "ENCODER8_A"
 		(at 180.34 147.32 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3138,7 +3124,7 @@
 		)
 		(uuid "72cffbf5-af6a-4e5b-9193-c3ce4ec5f9a1")
 	)
-	(label "ENCODER4_B"
+	(label "ENCODER8_B"
 		(at 180.34 152.4 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3160,7 +3146,7 @@
 		)
 		(uuid "76eb45fe-feda-4b64-ace7-780a7d42bac9")
 	)
-	(label "ENCODER7_SW"
+	(label "ENCODER8_SW"
 		(at 195.58 147.32 0)
 		(fields_autoplaced yes)
 		(effects
