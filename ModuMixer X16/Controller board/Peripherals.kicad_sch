@@ -591,6 +591,319 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x04_Counter_Clockwise"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x04_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x07_Counter_Clockwise"
 			(pin_names
 				(offset 1.016) hide)
@@ -2614,6 +2927,17 @@
 		)
 		(uuid "54d2f22b-9928-487d-9d48-97aba86e65ab")
 	)
+	(text "Both screens will be a 3.5\" TFT LCD\nwith a ILI9485 controller on SPI Mode\nTouchscreen will not be used"
+		(exclude_from_sim no)
+		(at 104.14 63.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b80fad2d-eaa6-4444-ac5b-08ab6aa8cca3")
+	)
 	(text "Peripherals"
 		(exclude_from_sim no)
 		(at 185.674 189.738 0)
@@ -2651,28 +2975,6 @@
 		)
 		(uuid "03c91c8c-3138-4a86-9b01-4429bff66e53")
 	)
-	(label "M_USART_CLK"
-		(at 156.21 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "058b666c-852d-4ae5-b37d-651789927466")
-	)
-	(label "BTN6"
-		(at 105.41 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "06bf5497-04d7-4280-88c4-4ccc765bb6ab")
-	)
 	(label "MAIN_OUT_L_P"
 		(at 166.37 29.21 0)
 		(fields_autoplaced yes)
@@ -2683,6 +2985,17 @@
 			(justify left bottom)
 		)
 		(uuid "06e6cfae-3b38-420c-a2f9-654c9a7ddb58")
+	)
+	(label "BTN4"
+		(at 43.18 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07891bee-2b07-489e-a096-2f6f6b71aff3")
 	)
 	(label "ENCODER2_SW"
 		(at 60.96 147.32 0)
@@ -2695,17 +3008,6 @@
 		)
 		(uuid "07a31e80-ba99-4dcb-a7a8-c40c0499b3ab")
 	)
-	(label "3V3_MAIN"
-		(at 63.5 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "07aa7260-279b-401a-baa4-e01eef53e33d")
-	)
 	(label "ENCODER4_SW"
 		(at 105.41 147.32 0)
 		(fields_autoplaced yes)
@@ -2716,17 +3018,6 @@
 			(justify left bottom)
 		)
 		(uuid "0aa65f69-15f1-4bf2-8092-f30a243d392e")
-	)
-	(label "3V3_MAIN"
-		(at 95.25 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "10eb9ac6-9605-44e5-9a9c-b2cbd6d8e157")
 	)
 	(label "SCRUBBER_B"
 		(at 45.72 180.34 180)
@@ -2750,19 +3041,8 @@
 		)
 		(uuid "135df76d-da26-45ee-8d89-b05d51a97254")
 	)
-	(label "BTN3"
-		(at 73.66 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1853fb2b-99d4-4ab6-a1d5-16b3b8314659")
-	)
 	(label "MAIN_LP"
-		(at 168.91 71.12 0)
+		(at 168.91 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2794,16 +3074,16 @@
 		)
 		(uuid "1b34d594-0e0e-4870-aa71-fe0ba878a1e6")
 	)
-	(label "3V3_MAIN"
-		(at 63.5 85.09 180)
+	(label "BTN8"
+		(at 59.69 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "1ba922ce-f48f-4416-a029-1ce7ed94ea9f")
+		(uuid "1cca2b96-54e1-411e-ace7-b42d346548b1")
 	)
 	(label "MAIN_OUT_L_P"
 		(at 157.48 43.18 180)
@@ -2828,7 +3108,7 @@
 		(uuid "1f48136a-2cb3-4980-8be4-e7af813a415f")
 	)
 	(label "MAIN_LM"
-		(at 168.91 68.58 0)
+		(at 168.91 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2838,8 +3118,8 @@
 		)
 		(uuid "243a956f-e6af-41de-af03-b6652f2a1bb4")
 	)
-	(label "3V3_MAIN"
-		(at 31.75 85.09 180)
+	(label "LCD_CS1"
+		(at 113.03 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2847,7 +3127,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "283febbb-5e8d-4860-a12d-305b579c8f0f")
+		(uuid "2483ec0a-dfca-462a-ad2b-748e3a2d4ed7")
 	)
 	(label "OUT_L_PRE"
 		(at 158.75 29.21 180)
@@ -2882,19 +3162,8 @@
 		)
 		(uuid "31d8abf5-f4ff-4f94-945d-69c5beec5c09")
 	)
-	(label "BTN4"
-		(at 73.66 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33091992-e6ee-4155-97f6-bf08ccb02c92")
-	)
 	(label "CUE_LP"
-		(at 168.91 81.28 0)
+		(at 168.91 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2903,17 +3172,6 @@
 			(justify left bottom)
 		)
 		(uuid "3371c3d8-0214-4968-8df3-461b1baa58f5")
-	)
-	(label "3V3_MAIN"
-		(at 95.25 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "33a5cd7c-a7f4-4215-a254-86664287731e")
 	)
 	(label "ENCODER6_B"
 		(at 135.89 152.4 180)
@@ -2926,8 +3184,8 @@
 		)
 		(uuid "37a9dd4a-1cf1-43bf-b1de-13005d663d73")
 	)
-	(label "BTN5"
-		(at 73.66 106.68 0)
+	(label "BTN2"
+		(at 43.18 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2935,7 +3193,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3b88c7ec-3347-4d51-967a-f2dbcdd5e539")
+		(uuid "3d243563-4cee-4055-8f5a-13bd41f5c18b")
+	)
+	(label "LCD_MOSI"
+		(at 125.73 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dd3fb1e-2a28-4596-8ac2-3a4fd1886397")
 	)
 	(label "MAIN_OUT_R_M"
 		(at 157.48 50.8 180)
@@ -2948,17 +3217,6 @@
 		)
 		(uuid "4064b0e5-1755-4ef7-890c-93757136685a")
 	)
-	(label "3V3_MAIN"
-		(at 95.25 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "423385ea-fe60-4eda-9bf3-6bc1958c23ae")
-	)
 	(label "ENCODER8_A"
 		(at 180.34 147.32 180)
 		(fields_autoplaced yes)
@@ -2970,8 +3228,8 @@
 		)
 		(uuid "423b6977-f541-4034-854e-3ef10197f6a5")
 	)
-	(label "BTN7"
-		(at 105.41 74.93 0)
+	(label "BTN12"
+		(at 76.2 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2979,10 +3237,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "43096be7-4083-4b15-8253-b695c68ae68b")
+		(uuid "4802cf84-839b-459e-8af1-628f822ee6fa")
 	)
-	(label "UP_BTN"
-		(at 41.91 74.93 0)
+	(label "5V_MAIN"
+		(at 113.03 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "481df041-3749-4d43-b22f-e6e2a54e20d3")
+	)
+	(label "BTN15"
+		(at 93.98 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2990,7 +3259,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "4562e3cb-f989-4cfb-904b-2024ed9da883")
+		(uuid "4c814b6d-7f95-4364-89a9-acfe9ecc88d2")
 	)
 	(label "ENCODER1_B"
 		(at 45.72 125.73 180)
@@ -3003,19 +3272,30 @@
 		)
 		(uuid "50673916-66db-48a1-80d0-1fd8d79a2476")
 	)
-	(label "M_USART_RX"
-		(at 156.21 78.74 180)
+	(label "BTN16"
+		(at 93.98 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "534da24c-5cf4-43e4-b184-5acc8b2a329c")
+		(uuid "553e7dbf-fe29-445e-b160-91ddcfa7eb75")
+	)
+	(label "BTN7"
+		(at 59.69 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5559ba50-7952-4086-bde2-3ab7b787a1d3")
 	)
 	(label "MAIN_RP"
-		(at 168.91 76.2 0)
+		(at 168.91 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3058,8 +3338,30 @@
 		)
 		(uuid "5cbf89e5-86c5-44bb-874f-429068eaf974")
 	)
+	(label "BTN3"
+		(at 43.18 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64c363b2-02dd-4f1a-9302-e9031ddb870e")
+	)
+	(label "BTN6"
+		(at 59.69 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6547732d-c23d-4aae-bb50-03fdf9a82864")
+	)
 	(label "CUE_RP"
-		(at 156.21 83.82 180)
+		(at 156.21 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3080,28 +3382,6 @@
 		)
 		(uuid "69541797-5b3f-4789-bf6d-36621c1898bc")
 	)
-	(label "BTN9"
-		(at 105.41 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e07585d-dd21-4b8f-bb44-4ec5b80f4849")
-	)
-	(label "3V3_MAIN"
-		(at 95.25 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ea86af0-fe84-4b45-abeb-7fe8320f0f61")
-	)
 	(label "ENCODER7_SW"
 		(at 195.58 120.65 0)
 		(fields_autoplaced yes)
@@ -3112,17 +3392,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f4aea49-ee80-4f8b-8985-5100127c4f17")
-	)
-	(label "BTN10"
-		(at 105.41 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72cffbf5-af6a-4e5b-9193-c3ce4ec5f9a1")
 	)
 	(label "ENCODER8_B"
 		(at 180.34 152.4 180)
@@ -3135,17 +3404,6 @@
 		)
 		(uuid "7441720a-5072-4c00-a4a4-b22503af4e6e")
 	)
-	(label "BTN2"
-		(at 73.66 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76eb45fe-feda-4b64-ace7-780a7d42bac9")
-	)
 	(label "ENCODER8_SW"
 		(at 195.58 147.32 0)
 		(fields_autoplaced yes)
@@ -3157,16 +3415,16 @@
 		)
 		(uuid "7a21baf5-1947-47d5-a743-bec7cf9a25a4")
 	)
-	(label "RIGHT_BTN"
-		(at 41.91 106.68 0)
+	(label "MOD_SDA"
+		(at 156.21 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "7cc8bfa3-7d94-44b7-b1d5-2851578f81a6")
+		(uuid "80a6ce46-12ae-416a-83cc-6326617f2af7")
 	)
 	(label "ENCODER5_SW"
 		(at 151.13 120.65 0)
@@ -3201,27 +3459,16 @@
 		)
 		(uuid "893afa31-0433-43aa-8fcd-348af8dde45f")
 	)
-	(label "3V3_MAIN"
-		(at 31.75 106.68 180)
+	(label "BTN14"
+		(at 93.98 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "8a411278-2892-4674-bbee-91fb23545b60")
-	)
-	(label "3V3_MAIN"
-		(at 31.75 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e5df0bd-e9c1-4d8b-8687-472827fbce11")
+		(uuid "91bfb6de-b955-4573-80fd-fb7551e2546d")
 	)
 	(label "ENCODER5_B"
 		(at 135.89 125.73 180)
@@ -3233,17 +3480,6 @@
 			(justify right bottom)
 		)
 		(uuid "92fa6ab5-fd75-4165-afc3-cd1188d43868")
-	)
-	(label "3V3_MAIN"
-		(at 31.75 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9af1658a-c29e-4d06-8354-0c32ab3afb11")
 	)
 	(label "ENCODER4_B"
 		(at 90.17 152.4 180)
@@ -3267,8 +3503,8 @@
 		)
 		(uuid "a6a775cb-1ccf-4ec2-a675-055a8b4bdc71")
 	)
-	(label "ENTER_BTN"
-		(at 41.91 64.77 0)
+	(label "LCD_CLK"
+		(at 125.73 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3276,10 +3512,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b3299ce5-6613-494a-8776-afc60e5e14cb")
+		(uuid "b48e0f3a-a5f5-4b26-a72a-039a8235ee54")
 	)
 	(label "MAIN_RM"
-		(at 168.91 73.66 0)
+		(at 168.91 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3288,39 +3524,6 @@
 			(justify left bottom)
 		)
 		(uuid "b6377590-cac1-4bfa-8e02-01cb695083ac")
-	)
-	(label "LEFT_BTN"
-		(at 41.91 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b860c8b9-384e-4004-94fb-c1ad484e91a2")
-	)
-	(label "BTN1"
-		(at 73.66 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba9bae8e-3ace-4b7c-a365-f4722720f569")
-	)
-	(label "3V3_MAIN"
-		(at 63.5 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc0eaff3-4e02-438f-930f-d3d119127e4b")
 	)
 	(label "MAIN_OUT_R_P"
 		(at 166.37 33.02 0)
@@ -3344,17 +3547,6 @@
 		)
 		(uuid "c294c4e7-f544-4acb-9db2-4d9c2b4abe69")
 	)
-	(label "3V3_MAIN"
-		(at 63.5 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c606e2f8-a158-4b76-9a6c-f36e3d8a1e45")
-	)
 	(label "ENCODER3_SW"
 		(at 105.41 120.65 0)
 		(fields_autoplaced yes)
@@ -3366,19 +3558,8 @@
 		)
 		(uuid "c77a7d0e-4acf-4328-807d-36dfd0f3ecda")
 	)
-	(label "BTN8"
-		(at 105.41 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9eb67e8-01ce-475b-af4c-621e61457e50")
-	)
-	(label "M_USART_TX"
-		(at 156.21 76.2 180)
+	(label "LCD_CS2"
+		(at 113.03 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3386,7 +3567,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "cdb43a06-347d-4166-ae5d-85cc8965bf52")
+		(uuid "cd9abc3f-fab2-47f3-9b35-db87d687229f")
+	)
+	(label "BTN13"
+		(at 93.98 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ceb4d0a3-23fe-4af6-bf29-2ad8172db6e3")
 	)
 	(label "ENCODER2_A"
 		(at 45.72 147.32 180)
@@ -3400,18 +3592,7 @@
 		(uuid "cfc7aaf4-79b8-458c-989c-4623b026f71d")
 	)
 	(label "CUE_RM"
-		(at 168.91 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d527837f-3e71-4260-b32c-1633ad926827")
-	)
-	(label "3V3_MAIN"
-		(at 63.5 74.93 180)
+		(at 156.21 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3419,7 +3600,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d65307d7-02a8-4a1c-aefd-c6f7bf0508ba")
+		(uuid "d527837f-3e71-4260-b32c-1633ad926827")
 	)
 	(label "BUZZER_CTRL"
 		(at 34.29 41.91 180)
@@ -3432,6 +3613,17 @@
 		)
 		(uuid "d695cd75-60be-4775-b3dc-307988129803")
 	)
+	(label "BTN11"
+		(at 76.2 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d69c3a32-75cf-419d-89f2-4ac1e90b87a3")
+	)
 	(label "ENCODER7_A"
 		(at 180.34 120.65 180)
 		(fields_autoplaced yes)
@@ -3443,16 +3635,38 @@
 		)
 		(uuid "ddc1276c-d468-4e4c-a16d-1cd12390a862")
 	)
-	(label "3V3_MAIN"
-		(at 95.25 106.68 180)
+	(label "BTN5"
+		(at 59.69 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "e1fa9254-35b2-4ec3-a949-e9b5a3c3ce69")
+		(uuid "deeedab7-5282-4b84-8c0d-ba5fd6ca2d8a")
+	)
+	(label "BTN1"
+		(at 43.18 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df3da7a8-5069-425b-89e3-87382c1d5eaf")
+	)
+	(label "LCD_MISO"
+		(at 125.73 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e026947c-6318-4095-8d37-5852ff303de4")
 	)
 	(label "HP_R"
 		(at 113.03 45.72 180)
@@ -3476,8 +3690,8 @@
 		)
 		(uuid "e743251a-4aaf-4c08-86ea-ec1ce5a19c8a")
 	)
-	(label "3V3_MAIN"
-		(at 31.75 64.77 180)
+	(label "MOD_SCL"
+		(at 156.21 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3485,10 +3699,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "eecd967c-a3e1-4769-88ec-03cedc823295")
+		(uuid "e81c94f2-933d-4643-ba98-140df56056fa")
 	)
-	(label "DOWN_BTN"
-		(at 41.91 85.09 0)
+	(label "BTN10"
+		(at 76.2 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3496,7 +3710,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f0cf0ddd-8761-40a9-88a6-058b175d8a49")
+		(uuid "e943295d-c9bb-4225-a9ee-f880f8b59d66")
 	)
 	(label "ENCODER1_SW"
 		(at 60.96 120.65 0)
@@ -3521,7 +3735,7 @@
 		(uuid "f3399770-8a17-4177-b4f1-1dcb18f9b558")
 	)
 	(label "CUE_LM"
-		(at 168.91 78.74 0)
+		(at 168.91 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3530,6 +3744,17 @@
 			(justify left bottom)
 		)
 		(uuid "f60f7de0-ee98-47e4-ad47-e224c2e476c2")
+	)
+	(label "BTN9"
+		(at 76.2 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6c36f43-45f4-4608-bb5a-d69717f54514")
 	)
 	(label "MAIN_OUT_R_P"
 		(at 157.48 48.26 180)
@@ -3543,74 +3768,6 @@
 		(uuid "f8df4622-4a8c-4a9b-8271-ce2701ae0f53")
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 68.58 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03d2de8d-e4e0-4ecd-84c1-dcbd2f2bd347")
-		(property "Reference" "SW12"
-			(at 68.58 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 68.58 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 68.58 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "430f55ae-9924-4537-8d91-3b47a37c8353")
-		)
-		(pin "1"
-			(uuid "4a46d937-63ec-4dbf-ab11-412e98990705")
-		)
-		(instances
-			(project "ModuMixer X16"
-				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 123.19 124.46 0)
 		(unit 1)
@@ -3620,7 +3777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09077174-d094-463d-9a1a-f55483a471cb")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR039"
 			(at 123.19 130.81 0)
 			(effects
 				(font
@@ -3670,7 +3827,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR01")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3686,7 +3843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b534cc1-ddba-472d-8eb2-fe574383f8fd")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR043"
 			(at 151.13 132.08 0)
 			(effects
 				(font
@@ -3736,7 +3893,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR05")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3752,7 +3909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e4e2048-047e-4ed8-8e08-1634d781b235")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR041"
 			(at 143.51 137.16 0)
 			(effects
 				(font
@@ -3802,7 +3959,73 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR03")
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ed0a6fc-68d8-4127-9fe4-506923e9917f")
+		(property "Reference" "#PWR024"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f01ce5a6-4ab7-42b8-990e-c1cb02fbef79")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3818,7 +4041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f08adb6-53fb-4558-910d-8f95e0080a1e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 69.85 53.34 0)
 			(effects
 				(font
@@ -3868,7 +4091,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3884,7 +4107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fc812b1-01e8-4e2b-bc44-ed1993ecf3d8")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR050"
 			(at 187.96 163.83 0)
 			(effects
 				(font
@@ -3934,7 +4157,139 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR010")
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10844334-fb2d-411a-af14-50e390c13443")
+		(property "Reference" "#PWR040"
+			(at 123.19 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6524c3cd-56d0-4dbd-bcad-355f73750c23")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "132efb35-f3ad-4d33-97b9-4a629ac1b781")
+		(property "Reference" "#PWR023"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abc7e3b6-459c-45fb-b9c8-97f94ac7b58c")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3950,7 +4305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "190f5de5-554e-43d4-a90a-5189f5c6ec53")
-		(property "Reference" "SW6"
+		(property "Reference" "SW5"
 			(at 53.34 113.03 0)
 			(effects
 				(font
@@ -4014,7 +4369,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -4101,72 +4456,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 123.19 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19ee8f03-15e3-4dba-88b2-dd3ef65b2118")
-		(property "Reference" "#PWR02"
-			(at 123.19 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41105d09-acdc-4939-91b0-0313eb5716ee")
-		)
-		(instances
-			(project "ModuMixer X16"
-				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
 		(at 53.34 177.8 0)
 		(unit 1)
@@ -4176,7 +4465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24383455-2e98-448a-92a7-54c72e670a7d")
-		(property "Reference" "SW13"
+		(property "Reference" "SW7"
 			(at 53.34 167.64 0)
 			(effects
 				(font
@@ -4240,7 +4529,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW13")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -4248,7 +4537,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 100.33 85.09 0)
+		(at 71.12 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4256,8 +4545,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2589733b-4e19-47b9-a9a5-74f12f9f4e34")
-		(property "Reference" "SW18"
-			(at 100.33 77.47 0)
+		(property "Reference" "SW14"
+			(at 71.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4554,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 100.33 80.01 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4562,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 100.33 80.01 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 80.01 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4580,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 100.33 85.09 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4597,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW18")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -4384,6 +4673,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 66.04 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d25ea1b-b6c7-454a-9cf2-6590bfb9378c")
+		(property "Reference" "#PWR025"
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03b40aed-5b40-44bb-b5c9-e481214de09e")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 53.34 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4392,7 +4747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30147ead-0a7d-4333-8103-16bd9529d0db")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR016"
 			(at 53.34 137.16 0)
 			(effects
 				(font
@@ -4442,7 +4797,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR020")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4458,7 +4813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34c33e25-b05f-4f63-87df-3e67dfee209e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR09"
 			(at 33.02 130.81 0)
 			(effects
 				(font
@@ -4508,7 +4863,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR017")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4516,7 +4871,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 36.83 95.25 0)
+		(at 38.1 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4525,7 +4880,7 @@
 		(fields_autoplaced yes)
 		(uuid "38b2ff6c-7b08-4166-8a5d-2feed90347eb")
 		(property "Reference" "SW4"
-			(at 36.83 87.63 0)
+			(at 38.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +4888,7 @@
 			)
 		)
 		(property "Value" "Left"
-			(at 36.83 90.17 0)
+			(at 38.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4541,7 +4896,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 36.83 90.17 0)
+			(at 38.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,7 +4905,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 90.17 0)
+			(at 38.1 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,7 +4914,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 36.83 95.25 0)
+			(at 38.1 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4583,6 +4938,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 49.53 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a6b9dad-b6e4-4cf1-8057-3c9b58912997")
+		(property "Reference" "#PWR015"
+			(at 49.53 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2da10727-b210-430f-9c80-40fe39c45bcc")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:RotaryEncoder_Switch_MP")
 		(at 53.34 149.86 0)
 		(unit 1)
@@ -4592,7 +5013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bc5739c-38c0-4ff8-b4e0-7aef4e4626e8")
-		(property "Reference" "SW7"
+		(property "Reference" "SW6"
 			(at 53.34 139.7 0)
 			(effects
 				(font
@@ -4656,7 +5077,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW7")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -4672,7 +5093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dbee159-126b-4bd5-aff3-5310d46454aa")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR046"
 			(at 157.48 59.69 0)
 			(effects
 				(font
@@ -4722,7 +5143,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR035")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4738,7 +5159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3eb464f7-c841-4739-bbb5-120f40a4ad8c")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -4826,7 +5247,7 @@
 		(instances
 			(project ""
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4842,7 +5263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d79477-6e2a-42fa-b174-7403b618b9f1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR011"
 			(at 33.02 185.42 0)
 			(effects
 				(font
@@ -4892,7 +5313,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR019")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4908,7 +5329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44384173-4cc1-42d0-bc56-13d49794ee35")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR018"
 			(at 53.34 191.77 0)
 			(effects
 				(font
@@ -4958,7 +5379,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR024")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4966,24 +5387,24 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 36.83 106.68 0)
+		(at 88.9 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4adb4b1c-b9a0-46ca-8726-1a232ac17324")
-		(property "Reference" "SW5"
-			(at 36.83 99.06 0)
+		(uuid "45541ca7-b85f-4aca-9f84-38c3a9eb00a9")
+		(property "Reference" "SW19"
+			(at 88.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Right"
-			(at 36.83 101.6 0)
+		(property "Value" "SW_Push"
+			(at 88.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +5412,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 36.83 101.6 0)
+			(at 88.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 101.6 0)
+			(at 88.9 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5430,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 36.83 106.68 0)
+			(at 88.9 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,15 +5439,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c074e419-0205-42b3-be4e-0c5ebc873980")
+			(uuid "3da8af97-feae-4ead-abe6-7cdd4a4625bb")
 		)
 		(pin "1"
-			(uuid "30e0c76f-5464-4f4e-945b-afa5ab226695")
+			(uuid "94711617-276d-45f7-90b6-496e81032205")
 		)
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW5")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -5034,7 +5455,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 100.33 64.77 0)
+		(at 71.12 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5042,8 +5463,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51ca2764-5396-4fb7-a01f-104d469524a2")
-		(property "Reference" "SW16"
-			(at 100.33 57.15 0)
+		(property "Reference" "SW12"
+			(at 71.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5472,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 100.33 59.69 0)
+			(at 71.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5480,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 100.33 59.69 0)
+			(at 71.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +5489,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 59.69 0)
+			(at 71.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +5498,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 100.33 64.77 0)
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5515,73 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW16")
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52493138-32c8-4dba-be54-0c27c5e56a4f")
+		(property "Reference" "#PWR013"
+			(at 49.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "058b9d28-31d9-4fa6-b037-250400391259")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5110,7 +5597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "526e1020-1ec6-496d-bb84-275e74618eec")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR048"
 			(at 167.64 157.48 0)
 			(effects
 				(font
@@ -5160,7 +5647,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR08")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5176,7 +5663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53fdb386-9361-4aed-a240-f395e94fd1a2")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 77.47 157.48 0)
 			(effects
 				(font
@@ -5226,7 +5713,73 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR027")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54d3f25a-5d21-4d0d-8417-52d90c138487")
+		(property "Reference" "#PWR030"
+			(at 83.82 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56624075-50c1-4dad-a80d-c89a12d585f0")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5242,7 +5795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "569af78c-667c-4c06-b4ef-257edefa0a17")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR021"
 			(at 67.31 175.26 0)
 			(effects
 				(font
@@ -5293,7 +5846,73 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR028")
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56f657f4-c28b-4d46-99e0-593ac60ef9cf")
+		(property "Reference" "#PWR012"
+			(at 49.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "048fd27e-ca95-40e9-8d17-34d67b28fb26")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5309,7 +5928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "590aa2f3-5282-4106-973d-81160948bb14")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR038"
 			(at 113.03 54.61 0)
 			(effects
 				(font
@@ -5359,7 +5978,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR034")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5375,7 +5994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a973256-0d8e-4ea7-aad2-9afaf7654da8")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR044"
 			(at 151.13 158.75 0)
 			(effects
 				(font
@@ -5425,7 +6044,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR06")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -5441,7 +6060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d09c5d5-44e5-46cc-8601-1d38c9764047")
-		(property "Reference" "SW21"
+		(property "Reference" "SW22"
 			(at 143.51 113.03 0)
 			(effects
 				(font
@@ -5505,7 +6124,73 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW21")
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ee50f9c-d525-493f-841c-555426c9db5d")
+		(property "Reference" "#PWR033"
+			(at 83.82 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "104359a6-93b9-448a-8626-4f97b37d4434")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5513,7 +6198,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 36.83 85.09 0)
+		(at 38.1 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5522,7 +6207,7 @@
 		(fields_autoplaced yes)
 		(uuid "632ff7e0-a2ff-437e-bb67-996d15a99f17")
 		(property "Reference" "SW3"
-			(at 36.83 77.47 0)
+			(at 38.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5530,7 +6215,7 @@
 			)
 		)
 		(property "Value" "Down"
-			(at 36.83 80.01 0)
+			(at 38.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +6223,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 36.83 80.01 0)
+			(at 38.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +6232,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 80.01 0)
+			(at 38.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +6241,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 36.83 85.09 0)
+			(at 38.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +6266,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 36.83 74.93 0)
+		(at 38.1 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5590,7 +6275,7 @@
 		(fields_autoplaced yes)
 		(uuid "6486dfe5-7725-492d-a692-037a20bbfd9d")
 		(property "Reference" "SW2"
-			(at 36.83 67.31 0)
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,7 +6283,7 @@
 			)
 		)
 		(property "Value" "Up"
-			(at 36.83 69.85 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +6291,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 36.83 69.85 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +6300,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 69.85 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +6309,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 36.83 74.93 0)
+			(at 38.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +6342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66bd3d98-bd95-4fb2-8a4c-58d0ea8b5a44")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR047"
 			(at 167.64 130.81 0)
 			(effects
 				(font
@@ -5707,7 +6392,75 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR07")
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d76066e-48bb-4cc4-8db9-a36c8e7db7df")
+		(property "Reference" "SW17"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "578de474-501a-4d4f-bf32-ad37857de407")
+		)
+		(pin "1"
+			(uuid "d7f939ee-d929-41bc-89d7-2d4198a879de")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -5723,7 +6476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "790c86e9-9e62-453c-aa9f-c92570d6a95a")
-		(property "Reference" "SW14"
+		(property "Reference" "SW20"
 			(at 97.79 113.03 0)
 			(effects
 				(font
@@ -5787,7 +6540,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW14")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -5795,7 +6548,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 36.83 64.77 0)
+		(at 38.1 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5804,7 +6557,7 @@
 		(fields_autoplaced yes)
 		(uuid "792cb567-d19e-41d3-9519-bbd4fd26e0e2")
 		(property "Reference" "SW1"
-			(at 36.83 57.15 0)
+			(at 38.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +6565,7 @@
 			)
 		)
 		(property "Value" "Enter"
-			(at 36.83 59.69 0)
+			(at 38.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +6573,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 36.83 59.69 0)
+			(at 38.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,7 +6582,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 59.69 0)
+			(at 38.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +6591,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 36.83 64.77 0)
+			(at 38.1 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5871,7 +6624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b3a6e10-a54b-48f2-aafd-0a1a27202f10")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 105.41 132.08 0)
 			(effects
 				(font
@@ -5921,7 +6674,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5929,7 +6682,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 68.58 95.25 0)
+		(at 54.61 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5938,7 +6691,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b41458f-07bf-4fa6-801c-b538df5c66f7")
 		(property "Reference" "SW11"
-			(at 68.58 87.63 0)
+			(at 54.61 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +6699,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 68.58 90.17 0)
+			(at 54.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +6707,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 68.58 90.17 0)
+			(at 54.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,7 +6716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 90.17 0)
+			(at 54.61 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5972,7 +6725,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 95.25 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,8 +6825,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 83.82 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d353037-7dbc-4eb5-81b2-7f3b040c08d6")
+		(property "Reference" "#PWR031"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c435766e-14e5-4108-8d26-ec56a28f45a9")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 100.33 74.93 0)
+		(at 71.12 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6081,8 +6900,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89408c4e-10b0-4641-90ba-a80ce41ede42")
-		(property "Reference" "SW17"
-			(at 100.33 67.31 0)
+		(property "Reference" "SW13"
+			(at 71.12 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,7 +6909,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 100.33 69.85 0)
+			(at 71.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6917,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 100.33 69.85 0)
+			(at 71.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 69.85 0)
+			(at 71.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +6935,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 100.33 74.93 0)
+			(at 71.12 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +6952,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW17")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -6149,7 +6968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a86e0ab-477b-4f73-a1f6-7a3c4d5d75d1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR042"
 			(at 143.51 163.83 0)
 			(effects
 				(font
@@ -6199,7 +7018,73 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR04")
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96d4a753-b1e3-493a-a34c-b2aa035cba24")
+		(property "Reference" "#PWR026"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4f6ffbb-146a-4237-95b4-79c051c65741")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6279,8 +7164,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 33.02 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99237ff3-9da3-462d-88c1-ae92b870e406")
+		(property "Reference" "#PWR05"
+			(at 33.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4885906d-32a2-4db0-a7d8-7cab0015f0d6")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 68.58 85.09 0)
+		(at 54.61 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6289,7 +7240,7 @@
 		(fields_autoplaced yes)
 		(uuid "a74a239a-8ce1-4e76-84e8-00b15b54bc64")
 		(property "Reference" "SW10"
-			(at 68.58 77.47 0)
+			(at 54.61 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,7 +7248,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 68.58 80.01 0)
+			(at 54.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +7256,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 68.58 80.01 0)
+			(at 54.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +7265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 80.01 0)
+			(at 54.61 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +7274,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 85.09 0)
+			(at 54.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6425,7 +7376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8ac0df5-615f-4d6e-90f3-04120d8a9c6f")
-		(property "Reference" "JP11"
+		(property "Reference" "JP3"
 			(at 162.56 39.37 0)
 			(effects
 				(font
@@ -6477,7 +7428,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "JP11")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -6485,7 +7436,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 100.33 95.25 0)
+		(at 71.12 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6493,8 +7444,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab8c9f1f-2075-415c-9add-f3b208cbdb1a")
-		(property "Reference" "SW19"
-			(at 100.33 87.63 0)
+		(property "Reference" "SW15"
+			(at 71.12 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +7453,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 100.33 90.17 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,7 +7461,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 100.33 90.17 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6519,7 +7470,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 90.17 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6528,7 +7479,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 100.33 95.25 0)
+			(at 71.12 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +7496,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW19")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -6553,7 +7504,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 68.58 74.93 0)
+		(at 54.61 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6562,7 +7513,7 @@
 		(fields_autoplaced yes)
 		(uuid "adcc24c6-20e8-4951-893c-ed684270937b")
 		(property "Reference" "SW9"
-			(at 68.58 67.31 0)
+			(at 54.61 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +7521,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 68.58 69.85 0)
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +7529,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 68.58 69.85 0)
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6587,7 +7538,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 69.85 0)
+			(at 54.61 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,7 +7547,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 74.93 0)
+			(at 54.61 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,74 +7571,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 100.33 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2db9055-e094-443a-95a3-9143d8c7761f")
-		(property "Reference" "SW20"
-			(at 100.33 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 100.33 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 100.33 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 100.33 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a3fa0ca9-6f68-49e2-9681-6f2eb8b15faf")
-		)
-		(pin "1"
-			(uuid "e5794514-b5f8-4801-b002-5dee79de88de")
-		)
-		(instances
-			(project "ModuMixer X16"
-				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 77.47 124.46 0)
 		(unit 1)
@@ -6697,7 +7580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b31c0c92-e07f-494b-9982-5c4e8a081a93")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 77.47 130.81 0)
 			(effects
 				(font
@@ -6747,7 +7630,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6763,7 +7646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5fa83f3-6add-4abb-a1fa-c49ec28c579f")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 53.34 163.83 0)
 			(effects
 				(font
@@ -6813,7 +7696,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -6829,7 +7712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd7e74a3-0a54-43c9-8e6f-8bcdebb5fc4b")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 165.1 46.9899 0)
 			(effects
 				(font
@@ -6892,7 +7775,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6908,7 +7791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c521cfc4-72ea-48a2-a538-363026698678")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR010"
 			(at 33.02 157.48 0)
 			(effects
 				(font
@@ -6958,7 +7841,207 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR018")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c541c653-21be-424e-a738-8d06d317a9db")
+		(property "Reference" "#PWR06"
+			(at 33.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a39ad188-b990-4adf-acdc-84eefa3d2973")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7971b26-29c6-4a1f-b07a-56106d9398c5")
+		(property "Reference" "#PWR08"
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "597ba023-0686-4924-a8ba-3bbc87469c1f")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c901247e-e523-41eb-9f79-2dfe480115df")
+		(property "Reference" "SW16"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "becc74a0-e961-4937-8f58-73ff7e7b48e5")
+		)
+		(pin "1"
+			(uuid "e817a991-8038-4afd-b3eb-432d16848959")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -6974,7 +8057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf05e8fb-80f1-4601-b88c-8b125838dc86")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR034"
 			(at 97.79 137.16 0)
 			(effects
 				(font
@@ -7024,7 +8107,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR030")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7120,7 +8203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d01b07e5-df78-4328-b66f-512c84011983")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR049"
 			(at 187.96 137.16 0)
 			(effects
 				(font
@@ -7170,7 +8253,93 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR09")
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
+		(at 118.11 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d21d13fa-d83d-4ff7-814f-9887345fa0bc")
+		(property "Reference" "J7"
+			(at 119.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x04_Counter_Clockwise"
+			(at 119.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "16c3d1ef-1239-499b-a5c8-7db67aa7f151")
+		)
+		(pin "4"
+			(uuid "8564a6a4-09ac-40b3-b5af-3ffb5652a232")
+		)
+		(pin "3"
+			(uuid "a2633be8-c87f-4971-8410-e4a6b0f981a7")
+		)
+		(pin "6"
+			(uuid "9108d7bf-b88d-4f02-8a35-d13c1a0c93d6")
+		)
+		(pin "2"
+			(uuid "d7d53b6f-cf25-425a-9d42-f23807ee6a34")
+		)
+		(pin "8"
+			(uuid "1463468d-60b6-40b5-8799-34486ef1b7f5")
+		)
+		(pin "1"
+			(uuid "abb546c7-0df2-416e-af7c-dd7152c71d7e")
+		)
+		(pin "7"
+			(uuid "eb340f79-0c6a-4ab9-aec8-1c2688b3b253")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7186,7 +8355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2bfd3d7-93ac-42fd-afd1-ee40c2c542a9")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR045"
 			(at 149.86 71.12 0)
 			(effects
 				(font
@@ -7237,7 +8406,73 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR038")
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3328425-f257-4e5e-b88a-cbdb22e2a43d")
+		(property "Reference" "#PWR07"
+			(at 33.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf0ca36c-41a8-41e5-90e5-dc40aec0aed0")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7253,7 +8488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6321db2-14c5-4a00-8669-54585cafe0dd")
-		(property "Reference" "SW15"
+		(property "Reference" "SW21"
 			(at 97.79 139.7 0)
 			(effects
 				(font
@@ -7317,7 +8552,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "SW15")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -7333,7 +8568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7c189f6-0049-4dcd-a51e-ba518572a19c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR052"
 			(at 195.58 158.75 0)
 			(effects
 				(font
@@ -7383,7 +8618,74 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR012")
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8c662b1-a48d-473a-a370-17fc67599af6")
+		(property "Reference" "#PWR072"
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63747b9b-a52e-4ff7-8046-90bf57479727")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7399,7 +8701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0a651b1-0377-43d0-a658-1ade098a457a")
-		(property "Reference" "JP10"
+		(property "Reference" "JP2"
 			(at 162.56 22.86 0)
 			(effects
 				(font
@@ -7451,7 +8753,75 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "JP10")
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 88.9 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e86b906b-eba4-4b94-b92c-d9f5b10a8221")
+		(property "Reference" "SW18"
+			(at 88.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 88.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a225ed19-18a7-47f7-8b51-fe6243ec6829")
+		)
+		(pin "1"
+			(uuid "def9df2e-fe09-435c-b064-47c683ba7490")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -7467,7 +8837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8a0c2cb-cf55-413e-9a06-20c4d7797b67")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR019"
 			(at 60.96 132.08 0)
 			(effects
 				(font
@@ -7517,7 +8887,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR022")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7525,7 +8895,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 68.58 64.77 0)
+		(at 54.61 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7534,15 +8904,15 @@
 		(fields_autoplaced yes)
 		(uuid "e8b38964-d73c-461f-9148-b0123bcfc791")
 		(property "Reference" "SW8"
-			(at 68.58 57.15 0)
+			(at 54.61 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 68.58 59.69 0)
+		(property "Value" "Right"
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7550,7 +8920,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3S-1000"
-			(at 68.58 59.69 0)
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +8929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 59.69 0)
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +8938,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 68.58 64.77 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7673,6 +9043,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 83.82 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed4e7964-309f-491e-994a-5f0765d70911")
+		(property "Reference" "#PWR032"
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a208208-b8c7-46f5-bdce-a7e7c016c6e8")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 60.96 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7681,7 +9117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eedb1441-4a4e-4805-a4eb-c9244d6e1954")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR020"
 			(at 60.96 158.75 0)
 			(effects
 				(font
@@ -7731,7 +9167,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR023")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7747,7 +9183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f02db0f0-cd32-48c5-b505-61b2d3be71d1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR035"
 			(at 97.79 163.83 0)
 			(effects
 				(font
@@ -7797,7 +9233,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR031")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7813,7 +9249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2c50817-a1aa-4a58-8af2-5a373ea6d495")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR022"
 			(at 67.31 180.34 0)
 			(effects
 				(font
@@ -7864,7 +9300,73 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR029")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f563167f-9da5-4c92-9c18-2664c5ca2c86")
+		(property "Reference" "#PWR014"
+			(at 49.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13d76ae5-736b-46a0-8e5f-1f462979caa7")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7880,7 +9382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f757f9ea-1ce9-4cfd-81a5-5723d7f7f5b2")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR037"
 			(at 105.41 158.75 0)
 			(effects
 				(font
@@ -7930,7 +9432,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR033")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7946,7 +9448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f91b9eef-e200-4459-a6a3-a1f0dbdbef47")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR051"
 			(at 195.58 132.08 0)
 			(effects
 				(font
@@ -7996,7 +9498,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3a9d28ee-c7c3-4c7a-9e4a-82c2f03964d1"
-					(reference "#PWR011")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

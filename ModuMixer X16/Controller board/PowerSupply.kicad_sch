@@ -294,6 +294,178 @@
 				)
 			)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1012,342 +1184,6 @@
 				)
 			)
 		)
-		(symbol "Relay:Relay_SPST_Latching_1coil"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "K"
-				(at 12.065 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Relay_SPST_Latching_1coil"
-				(at 11.43 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 33.655 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Relay SPST, bistable, single-coil, EN50005"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SPST 1P1T latching"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Relay?SPST*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Relay_SPST_Latching_1coil_1_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -1.905) (xy -2.54 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 3.81) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "R+"
-					(at -3.048 -3.556 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(text "S+"
-					(at -3.048 3.556 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0) hide)
@@ -1671,6 +1507,301 @@
 				)
 			)
 		)
+		(symbol "Transistor_FET:IRF9540N"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "IRF9540N"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET HEXFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRF9540N_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "IRF9540N_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1839,6 +1970,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e530dd9-b2f7-4369-8582-5df5a2a1ea81")
+	)
+	(junction
+		(at 186.69 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "610c4792-b692-45a5-87fb-978a195f0655")
 	)
 	(junction
 		(at 64.77 85.09)
@@ -2030,6 +2167,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 46.99) (xy 186.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254a119d-1daf-43e4-b2ad-b0d336d02968")
+	)
+	(wire
+		(pts
 			(xy 148.59 46.99) (xy 148.59 48.26)
 		)
 		(stroke
@@ -2120,16 +2267,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 137.16) (xy 129.54 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5494ccc3-1942-4c21-baa3-1e2caa58a82d")
-	)
-	(wire
-		(pts
 			(xy 67.31 48.26) (xy 71.12 48.26)
 		)
 		(stroke
@@ -2170,6 +2307,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 53.34) (xy 186.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6908937d-dbf2-42f1-baf1-5f4ac0d3f770")
+	)
+	(wire
+		(pts
 			(xy 134.62 55.88) (xy 134.62 57.15)
 		)
 		(stroke
@@ -2177,6 +2324,16 @@
 			(type default)
 		)
 		(uuid "6cfd39e5-e4ff-42a1-a261-b3b1a89c7713")
+	)
+	(wire
+		(pts
+			(xy 195.58 46.99) (xy 195.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a51214-d621-4b4d-828b-0e5526a78b85")
 	)
 	(wire
 		(pts
@@ -2217,16 +2374,6 @@
 			(type default)
 		)
 		(uuid "7a0e559c-edec-4f64-86dd-6d650b2859f6")
-	)
-	(wire
-		(pts
-			(xy 137.16 115.57) (xy 137.16 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dad8de2-2ceb-44ea-acad-b3a8b9f3b351")
 	)
 	(wire
 		(pts
@@ -2550,6 +2697,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 46.99) (xy 195.58 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b59cfd-fe48-497b-9765-33bf1975df8f")
+	)
+	(wire
+		(pts
 			(xy 60.96 39.37) (xy 64.77 39.37)
 		)
 		(stroke
@@ -2588,6 +2745,16 @@
 		)
 		(uuid "fe4fe459-3790-497c-b28f-280b7f94da3d")
 	)
+	(wire
+		(pts
+			(xy 186.69 53.34) (xy 186.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe88eb8c-0a2b-4784-a3ea-5218bc008b6c")
+	)
 	(text "Power Supply"
 		(exclude_from_sim no)
 		(at 196.342 189.738 0)
@@ -2601,17 +2768,6 @@
 			)
 		)
 		(uuid "be2dfef3-3441-4aff-a18f-bd7334b1b937")
-	)
-	(label "+12V_MAIN"
-		(at 147.32 115.57 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "092e4ffc-0e7a-49d9-85cd-0c3003e6e20d")
 	)
 	(label "3V3_ALW"
 		(at 148.59 48.26 0)
@@ -2635,28 +2791,6 @@
 		)
 		(uuid "1897512f-8c08-4eec-92a0-acc9d81336ef")
 	)
-	(label "+12V_MOD"
-		(at 149.86 100.33 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "193a518e-0b1d-4c1e-9372-8dbefa7d4b99")
-	)
-	(label "MODULE_NPN_BASE"
-		(at 129.54 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b2ee767-d51f-4b75-94c8-050eda2ad57a")
-	)
 	(label "+12V_IN"
 		(at 110.49 21.59 180)
 		(fields_autoplaced yes)
@@ -2678,17 +2812,6 @@
 			(justify right bottom)
 		)
 		(uuid "280213fb-28dd-4d27-9d00-1012e806fba8")
-	)
-	(label "MODULE_RELAY_M"
-		(at 137.16 115.57 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b0cb74a-7a10-4912-956a-b7f48e24d7f5")
 	)
 	(label "3V3_MAIN"
 		(at 81.28 85.09 0)
@@ -2734,16 +2857,16 @@
 		)
 		(uuid "50b3cb8f-05ef-484b-8af4-d695dbbdf888")
 	)
-	(label "+12V_MAIN"
-		(at 137.16 100.33 90)
+	(label "MOD_CTRL"
+		(at 171.45 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "55bc7d0f-95e3-4706-b3f6-4111646c6673")
+		(uuid "661bf2fb-16a3-4008-8f04-a7691686040f")
 	)
 	(label "+12V_IN"
 		(at 102.87 48.26 180)
@@ -2811,16 +2934,38 @@
 		)
 		(uuid "81ef3b0e-ab73-41b1-b4bc-3903dadd1108")
 	)
-	(label "MOD_CTRL"
-		(at 101.6 137.16 180)
+	(label "MOD_FET_GATE"
+		(at 186.69 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "99c7e82c-e163-4534-a722-9b279fa08cb6")
+		(uuid "84dec9d4-acd8-4255-8e7b-7b7737217dcb")
+	)
+	(label "+12V_MOD"
+		(at 195.58 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85db7d76-8fba-431e-a790-082a96feeb06")
+	)
+	(label "3V3_BATT"
+		(at 106.68 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "947ece14-1d8c-44aa-9314-3c639f972b8a")
 	)
 	(label "+12V_MAIN"
 		(at 59.69 16.51 0)
@@ -2834,7 +2979,7 @@
 		(uuid "a68d7e30-f701-4a28-8577-e288a9104f9a")
 	)
 	(label "+12V_MOD"
-		(at 158.75 90.17 0)
+		(at 213.36 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2843,6 +2988,17 @@
 			(justify left bottom)
 		)
 		(uuid "b912481c-a7d6-4446-81eb-2fdd70e7adc2")
+	)
+	(label "12V_MAIN"
+		(at 195.58 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c93220b5-7342-40a9-a662-ff4dfb821a70")
 	)
 	(label "+12V_IN"
 		(at 77.47 21.59 180)
@@ -2950,7 +3106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02ac3a03-8b4e-4439-84ff-cce91fa2541f")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR060"
 			(at 62.23 71.12 0)
 			(effects
 				(font
@@ -3000,7 +3156,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR046")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -3016,7 +3172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08bb9785-f923-42a5-b2a9-36e1fbe29e84")
-		(property "Reference" "C34"
+		(property "Reference" "C14"
 			(at 121.92 83.8199 0)
 			(effects
 				(font
@@ -3070,7 +3226,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C34")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3086,7 +3242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0de49b90-3e2c-4a54-8ca8-7c855a3cb8fc")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 57.15 41.91 0)
 			(effects
 				(font
@@ -3142,7 +3298,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3158,7 +3314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15096067-04b6-4643-b296-c2d242c1a93f")
-		(property "Reference" "TP6"
+		(property "Reference" "TP1"
 			(at 73.66 65.5321 0)
 			(effects
 				(font
@@ -3209,7 +3365,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "TP6")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -3225,7 +3381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15aa5c78-cf26-46d7-b16b-e6f72ec313b2")
-		(property "Reference" "C30"
+		(property "Reference" "C10"
 			(at 85.09 50.7999 0)
 			(effects
 				(font
@@ -3279,7 +3435,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C30")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3295,7 +3451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1670c0b0-ebaa-4a05-9eec-aa4fd2d0d311")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR069"
 			(at 124.46 71.12 0)
 			(effects
 				(font
@@ -3345,7 +3501,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR054")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3353,7 +3509,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 97.79 0)
+		(at 213.36 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3361,8 +3517,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1cc2e9be-2e34-42fa-8451-8b20cbbe0de9")
-		(property "Reference" "#PWR058"
-			(at 158.75 104.14 0)
+		(property "Reference" "#PWR073"
+			(at 213.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3527,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.7499 101.6 90)
+			(at 213.3599 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,7 +3536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 97.79 0)
+			(at 213.36 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,7 +3545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 97.79 0)
+			(at 213.36 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +3554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 97.79 0)
+			(at 213.36 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +3568,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR058")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3420,7 +3576,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 158.75 93.98 0)
+		(at 213.36 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3428,8 +3584,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2204ecc0-e4d1-42bb-b4e0-fbcf2be54b76")
-		(property "Reference" "C37"
-			(at 162.56 91.8209 0)
+		(property "Reference" "C17"
+			(at 217.17 49.9109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3438,7 +3594,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 162.56 94.3609 0)
+			(at 217.17 52.4509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3603,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
-			(at 159.7152 97.79 0)
+			(at 214.3252 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 93.98 0)
+			(at 213.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +3621,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 158.75 93.98 0)
+			(at 213.36 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3638,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C37")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3498,7 +3654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25a7a3b9-fb1a-46da-aabd-d99ffcc78109")
-		(property "Reference" "C36"
+		(property "Reference" "C16"
 			(at 152.4 50.7999 0)
 			(effects
 				(font
@@ -3552,7 +3708,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C36")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3739,7 +3895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "282c1869-54e6-4b96-841b-e877967b2d83")
-		(property "Reference" "C35"
+		(property "Reference" "C15"
 			(at 133.35 59.6899 0)
 			(effects
 				(font
@@ -3793,7 +3949,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C35")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3809,7 +3965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a503ebe-f5b5-46ae-bd56-c17a0c4eee9b")
-		(property "Reference" "C32"
+		(property "Reference" "C12"
 			(at 99.06 50.7999 0)
 			(effects
 				(font
@@ -3863,7 +4019,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C32")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3949,7 +4105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3416d668-af02-4313-88ba-7d2bb346cbbe")
-		(property "Reference" "TP7"
+		(property "Reference" "TP2"
 			(at 73.66 104.9021 0)
 			(effects
 				(font
@@ -4000,7 +4156,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "TP7")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4015,7 +4171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "390b1903-dc55-4bbf-aed7-00cc3f185ef9")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR067"
 			(at 104.14 24.13 0)
 			(effects
 				(font
@@ -4066,7 +4222,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR052")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4082,7 +4238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a81b916-bf49-4756-8ade-d54f9f00fee1")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 57.15 78.74 0)
 			(effects
 				(font
@@ -4165,7 +4321,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4343,6 +4499,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 184.15 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eac950c-6124-4908-972a-00c168868426")
+		(property "Reference" "Q5"
+			(at 189.23 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 189.23 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 189.23 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 184.15 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d3eff1c0-7887-46e8-ab77-489198aa03b6")
+		)
+		(pin "2"
+			(uuid "afce7efa-5245-4927-84be-1df4f48238d2")
+		)
+		(pin "1"
+			(uuid "a2b4e292-515a-4290-bef4-556443d0efc5")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 40.64 88.9 0)
 		(unit 1)
@@ -4352,7 +4584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f7a758f-15a5-49e1-83d7-f403733aa43b")
-		(property "Reference" "C25"
+		(property "Reference" "C5"
 			(at 44.45 87.6299 0)
 			(effects
 				(font
@@ -4406,7 +4638,75 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C25")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 175.26 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fba47df-05e6-4227-8f2f-e82b9264be0d")
+		(property "Reference" "R18"
+			(at 175.26 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 175.26 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1440a979-9d58-408b-8e45-06c645e88157")
+		)
+		(pin "2"
+			(uuid "70ae9ef1-3850-4647-99fb-32efd81444d1")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4422,7 +4722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "420c4999-0a2e-49d3-8f19-3f18cd49897a")
-		(property "Reference" "TP11"
+		(property "Reference" "TP6"
 			(at 140.97 65.5321 0)
 			(effects
 				(font
@@ -4473,7 +4773,75 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "TP11")
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42d149c1-e005-4ee4-855c-a37fabf98b4d")
+		(property "Reference" "R19"
+			(at 190.5 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 190.5 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4cfc27cb-102f-4145-8f36-7f84838979af")
+		)
+		(pin "1"
+			(uuid "b9766bf9-bc3c-499c-904a-879b61221095")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4489,7 +4857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "509270ce-b735-4d23-8b6a-453b2b649c61")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR057"
 			(at 57.15 71.12 0)
 			(effects
 				(font
@@ -4539,7 +4907,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR043")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4555,7 +4923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51686a92-5c6c-405b-be4f-642f3052d825")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR061"
 			(at 62.23 107.95 0)
 			(effects
 				(font
@@ -4605,7 +4973,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR047")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4621,7 +4989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "544c840f-8daa-4a46-a59c-5d51999f3baa")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR056"
 			(at 40.64 99.06 0)
 			(effects
 				(font
@@ -4671,7 +5039,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR042")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4687,7 +5055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b717b10-c184-4488-863f-91f763a3893e")
-		(property "Reference" "C23"
+		(property "Reference" "C3"
 			(at 31.75 87.6299 0)
 			(effects
 				(font
@@ -4741,7 +5109,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C23")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4757,7 +5125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d21918d-5f40-43cf-a004-035f23e17ac0")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR053"
 			(at 35.56 62.23 0)
 			(effects
 				(font
@@ -4807,7 +5175,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR039")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -5048,7 +5416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fe38501-334d-404e-b92d-894863ead00e")
-		(property "Reference" "C24"
+		(property "Reference" "C4"
 			(at 44.45 50.7999 0)
 			(effects
 				(font
@@ -5102,7 +5470,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C24")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5117,7 +5485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "645fcab5-04ec-41df-854e-2ae69a021e25")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR059"
 			(at 64.77 24.13 0)
 			(effects
 				(font
@@ -5168,7 +5536,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR045")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5184,7 +5552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69ea7b8f-82df-44cc-89d9-f369d707317d")
-		(property "Reference" "SW22"
+		(property "Reference" "SW26"
 			(at 82.55 15.24 0)
 			(effects
 				(font
@@ -5236,7 +5604,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "SW22")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -5252,7 +5620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cd29302-8c86-41d7-90ea-8c1bc4ed3288")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 118.11 21.5899 0)
 			(effects
 				(font
@@ -5306,7 +5674,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5321,7 +5689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7318563f-3e1c-4b18-bf3f-d7d037a70622")
-		(property "Reference" "TP12"
+		(property "Reference" "TP7"
 			(at 151.13 42.4179 0)
 			(effects
 				(font
@@ -5372,7 +5740,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "TP12")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -5387,7 +5755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78de89e5-3135-48cd-a2f2-13a8fac4c232")
-		(property "Reference" "TP10"
+		(property "Reference" "TP5"
 			(at 121.92 76.7079 0)
 			(effects
 				(font
@@ -5438,7 +5806,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "TP10")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -5454,7 +5822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "792bd12e-d612-42d1-ac01-3ec80bd52466")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR070"
 			(at 129.54 71.12 0)
 			(effects
 				(font
@@ -5504,7 +5872,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR055")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -5520,7 +5888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f351cf2-bef4-437a-a1ae-12030e54f11c")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 121.92 59.6899 0)
 			(effects
 				(font
@@ -5574,7 +5942,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5590,7 +5958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "857f0166-4450-4acd-8669-4db265051c5b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR066"
 			(at 107.95 62.23 0)
 			(effects
 				(font
@@ -5640,7 +6008,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR051")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5656,7 +6024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "897fd944-e2d6-421b-9cff-6cddb64ba0c2")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR068"
 			(at 118.11 95.25 0)
 			(effects
 				(font
@@ -5706,7 +6074,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR053")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5721,7 +6089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cafd543-8cbd-484b-8285-6bb7bfdec076")
-		(property "Reference" "TP8"
+		(property "Reference" "TP3"
 			(at 83.82 42.4179 0)
 			(effects
 				(font
@@ -5772,7 +6140,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "TP8")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5788,7 +6156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cc17849-dfb9-4a95-9b85-f7db2d8a3817")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR054"
 			(at 35.56 99.06 0)
 			(effects
 				(font
@@ -5838,7 +6206,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR040")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5854,7 +6222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9061c647-19ed-4aec-8555-680d1c4c8e67")
-		(property "Reference" "C29"
+		(property "Reference" "C9"
 			(at 66.04 96.5199 0)
 			(effects
 				(font
@@ -5908,7 +6276,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C29")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5924,7 +6292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93496fe1-ae95-43b0-8a51-4c04308949cf")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR055"
 			(at 40.64 62.23 0)
 			(effects
 				(font
@@ -5974,7 +6342,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR041")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6075,7 +6443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99821b1c-0bf3-499a-a58b-3a8a98676572")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR062"
 			(at 81.28 62.23 0)
 			(effects
 				(font
@@ -6125,7 +6493,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR048")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6141,7 +6509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a58d4caa-be74-42c8-89ed-35dee5271c02")
-		(property "Reference" "C21"
+		(property "Reference" "C1"
 			(at 31.75 18.1609 0)
 			(effects
 				(font
@@ -6195,160 +6563,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPST_Latching_1coil")
-		(at 142.24 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adb5c9e8-62f4-4cb7-92a7-09d76b0ed634")
-		(property "Reference" "K1"
-			(at 153.67 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Relay_SPST_Latching_1coil"
-			(at 153.67 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Zettler-AZSR131"
-			(at 175.895 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPST, bistable, single-coil, EN50005"
-			(at 142.24 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "bb07e45b-97b3-4bf2-acab-b521f3f23b25")
-		)
-		(pin "A1"
-			(uuid "f417abfb-9fad-4e0e-b665-60df2aff8f83")
-		)
-		(pin "14"
-			(uuid "68ef396a-e0aa-46ed-b67e-44d132e28e5b")
-		)
-		(pin "A2"
-			(uuid "9f42149d-f367-4e23-97be-ffa360bc19fa")
-		)
-		(instances
-			(project "ModuMixer X16"
-				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MMBT2222A")
-		(at 134.62 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b20b569b-934f-410d-a60d-4dc625dbfc71")
-		(property "Reference" "Q2"
-			(at 139.7 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MMBT2222A"
-			(at 139.7 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 139.7 139.065 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
-			(at 134.62 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
-			(at 134.62 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cf550876-0be3-4ed6-aa98-9227be2046e6")
-		)
-		(pin "1"
-			(uuid "93c10be1-06a5-4a1b-9c24-a0c3ec9629ec")
-		)
-		(pin "2"
-			(uuid "22f84eac-14b5-4520-a4db-ba0456a1bc19")
-		)
-		(instances
-			(project "ModuMixer X16"
-				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "Q2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6364,7 +6579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b43baec6-217f-4c60-b787-717eb3bdee10")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR071"
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -6414,7 +6629,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR057")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -6430,7 +6645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bbdf2902-745c-4247-be0e-ff29c7885f34")
-		(property "Reference" "C22"
+		(property "Reference" "C2"
 			(at 31.75 50.7999 0)
 			(effects
 				(font
@@ -6484,7 +6699,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C22")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6500,7 +6715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be6e2a61-494f-4639-9700-eb8f45a29b82")
-		(property "Reference" "C27"
+		(property "Reference" "C7"
 			(at 59.69 18.1609 0)
 			(effects
 				(font
@@ -6554,7 +6769,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C27")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6570,7 +6785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c22e8712-ddbf-4c73-8ae6-6e2633cb102c")
-		(property "Reference" "C28"
+		(property "Reference" "C8"
 			(at 66.04 59.6899 0)
 			(effects
 				(font
@@ -6624,7 +6839,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C28")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6726,7 +6941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca97cbf8-7aae-4ab7-b2ba-c320989e4edc")
-		(property "Reference" "C31"
+		(property "Reference" "C11"
 			(at 85.09 87.6299 0)
 			(effects
 				(font
@@ -6780,7 +6995,75 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C31")
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 101.6 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1a82f38-0437-4ce3-a25c-a68950efb35a")
+		(property "Reference" "BT1"
+			(at 103.4415 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 103.4415 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.124 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 103.124 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b37b5107-b408-4408-b4b2-5759b7b194cf")
+		)
+		(pin "1"
+			(uuid "145f8b42-0bb1-48a9-90c9-364ad322a956")
+		)
+		(instances
+			(project ""
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -6796,7 +7079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d20016f3-f805-4c34-bd2f-ac440e12a361")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 140.97 50.7999 0)
 			(effects
 				(font
@@ -6850,7 +7133,73 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "R8")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 186.69 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d82904d7-a417-4f61-8955-b91dcd4d05e9")
+		(property "Reference" "#PWR0112"
+			(at 186.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e102cfdd-4cd3-46fa-9dec-c45106f8d027")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -6866,7 +7215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db04615e-9147-458d-accf-57525c3af4a7")
-		(property "Reference" "C26"
+		(property "Reference" "C6"
 			(at 45.72 18.1609 0)
 			(effects
 				(font
@@ -6920,7 +7269,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C26")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6997,33 +7346,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 105.41 137.16 90)
+		(lib_id "power:GND")
+		(at 99.06 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd87f545-818b-46a5-b3ad-55662644061a")
-		(property "Reference" "R6"
-			(at 105.41 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 105.41 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 105.41 138.938 90)
+		(uuid "e10ba277-8466-47a4-8ae6-6fb54141a0d8")
+		(property "Reference" "#PWR064"
+			(at 99.06 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,8 +7364,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 105.41 137.16 0)
+		(property "Value" "GND"
+			(at 99.06 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,8 +7381,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 105.41 137.16 0)
+		(property "Datasheet" ""
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7050,15 +7400,87 @@
 			)
 		)
 		(pin "1"
-			(uuid "373107d4-c38b-4cc3-99de-6bf0a153d056")
-		)
-		(pin "2"
-			(uuid "bd019f7f-5aa1-4934-9122-960acab168b5")
+			(uuid "e9d43bc9-f7fd-4077-bd0c-e66fd2352b01")
 		)
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "R6")
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRF9540N")
+		(at 193.04 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4a16460-4445-48ae-88b7-a12cb2ab65a1")
+		(property "Reference" "Q6"
+			(at 199.39 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF9540N"
+			(at 199.39 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 198.12 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
+			(at 198.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
+			(at 193.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f71cec72-b062-40a2-8048-7edcadd0e166")
+		)
+		(pin "2"
+			(uuid "439dc332-3307-4554-8f05-e5bc4d905802")
+		)
+		(pin "3"
+			(uuid "51d77a17-2866-49ff-9e36-0ae60a3911e0")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -7074,7 +7496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee42fd90-39a8-47ce-9cee-d6fbe4ba00d0")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR065"
 			(at 102.87 62.23 0)
 			(effects
 				(font
@@ -7124,7 +7546,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR050")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -7140,7 +7562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f00312cd-0d5d-4008-8a72-4e89ab2ebd85")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 124.46 41.91 0)
 			(effects
 				(font
@@ -7223,7 +7645,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7239,7 +7661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f16f0a68-3ec2-4793-b02c-9461228ec9c7")
-		(property "Reference" "C33"
+		(property "Reference" "C13"
 			(at 111.76 50.7999 0)
 			(effects
 				(font
@@ -7293,7 +7715,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "C33")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7309,7 +7731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1f94618-de45-4fe6-bab3-c6128d59822a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR058"
 			(at 57.15 107.95 0)
 			(effects
 				(font
@@ -7359,7 +7781,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR044")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7374,7 +7796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f63301ea-96a1-4d92-b918-c695b3c8b94b")
-		(property "Reference" "TP9"
+		(property "Reference" "TP4"
 			(at 83.82 79.2479 0)
 			(effects
 				(font
@@ -7425,73 +7847,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 137.16 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f99e4dbc-afcc-43cd-b9ce-909366e86684")
-		(property "Reference" "#PWR056"
-			(at 137.16 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f3a0af2-68fd-49ec-a18f-982c3ff7cecf")
-		)
-		(instances
-			(project "ModuMixer X16"
-				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR056")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7507,7 +7863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe7a17c2-bf88-49dd-ba8e-3b48a8281bbe")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR063"
 			(at 81.28 99.06 0)
 			(effects
 				(font
@@ -7557,7 +7913,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/2da1cd39-487a-4f5f-b6a5-609ecdee336e"
-					(reference "#PWR049")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)

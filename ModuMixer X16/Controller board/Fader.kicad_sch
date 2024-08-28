@@ -1681,7 +1681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "040019b3-5bd0-4c26-a2bc-a038168b710d")
-		(property "Reference" "U10"
+		(property "Reference" "U12"
 			(at 58.0741 59.69 0)
 			(effects
 				(font
@@ -1782,7 +1782,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "U10")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -1798,7 +1798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26714748-40d0-4947-b2df-f4c7ffae53da")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0108"
 			(at 55.88 68.58 0)
 			(effects
 				(font
@@ -1848,7 +1848,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR097")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -1864,7 +1864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26d356b6-2a04-43b3-9227-6ec5c8847795")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 109.2199 22.86 0)
 			(effects
 				(font
@@ -1918,7 +1918,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1934,7 +1934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c3e2e46-34c1-4f81-8cee-74546e35ca85")
-		(property "Reference" "C70"
+		(property "Reference" "C41"
 			(at 109.2199 41.91 0)
 			(effects
 				(font
@@ -1988,7 +1988,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "C70")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2004,7 +2004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a39b650-2b13-4009-bf44-525b01f67ded")
-		(property "Reference" "JP8"
+		(property "Reference" "JP5"
 			(at 97.79 82.55 0)
 			(effects
 				(font
@@ -2056,7 +2056,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "JP8")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -2072,7 +2072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ad4311-5c88-4be7-8d00-87616a0f6780")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0109"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -2123,7 +2123,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR098")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -2139,7 +2139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74d15b13-57ea-4eb0-8f7c-a058d1060700")
-		(property "Reference" "C69"
+		(property "Reference" "C40"
 			(at 109.2199 31.75 0)
 			(effects
 				(font
@@ -2193,7 +2193,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "C69")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -2209,7 +2209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87448a48-bda4-443b-bedd-01954e92cf87")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0111"
 			(at 120.65 57.15 0)
 			(effects
 				(font
@@ -2259,7 +2259,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR0100")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -2275,7 +2275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90824a4e-3d4d-49d3-a7ee-2a1c98651f90")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 100.33 60.9599 0)
 			(effects
 				(font
@@ -2329,7 +2329,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2345,7 +2345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ecbf15c-82d7-4e91-9cc0-1f7c48261836")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0107"
 			(at 34.29 41.91 0)
 			(effects
 				(font
@@ -2396,7 +2396,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR096")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -2412,7 +2412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a42ebd6c-9986-4ba4-a83f-433340abb3f7")
-		(property "Reference" "J8"
+		(property "Reference" "J6"
 			(at 100.33 74.9299 0)
 			(effects
 				(font
@@ -2469,7 +2469,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "J8")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2485,7 +2485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6dc3533-998e-43f6-a2ce-ab0572bc289f")
-		(property "Reference" "JP9"
+		(property "Reference" "JP6"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -2537,7 +2537,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "JP9")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -2553,7 +2553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c84b0bdd-346b-4e87-a793-bd9ebb6b4cf9")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0110"
 			(at 120.65 35.56 0)
 			(effects
 				(font
@@ -2603,7 +2603,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR099")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -2619,7 +2619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce7145f8-e5a7-45a3-95b6-75a32f94f6df")
-		(property "Reference" "C71"
+		(property "Reference" "C42"
 			(at 110.49 49.53 90)
 			(effects
 				(font
@@ -2671,7 +2671,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "C71")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -2687,7 +2687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3f2b947-f0b0-4422-bd81-d99f7f96ce58")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0106"
 			(at 34.29 39.37 0)
 			(effects
 				(font
@@ -2738,7 +2738,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR095")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
