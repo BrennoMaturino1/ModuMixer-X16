@@ -1144,7 +1144,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1213,7 +1213,8 @@
 		)
 		(uuid "4c654837-1007-4a6f-83aa-6aa8f106a88d")
 	)
-	(label "VCP"
+	(global_label "VCP"
+		(shape bidirectional)
 		(at 114.3 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1223,8 +1224,18 @@
 			(justify left bottom)
 		)
 		(uuid "1d146d9a-4cb5-42c8-8821-bee47086001f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "VINT"
+	(global_label "VINT"
+		(shape bidirectional)
 		(at 60.96 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -1234,8 +1245,18 @@
 			(justify left bottom)
 		)
 		(uuid "24aa721a-75ed-46cc-b6e2-b676ae05c4de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.96 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "NSLEEP"
+	(global_label "NSLEEP"
+		(shape bidirectional)
 		(at 114.3 25.4 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1245,8 +1266,18 @@
 			(justify left bottom)
 		)
 		(uuid "26aa409a-f3f2-4946-b4f5-b71f2d86617f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_W"
+	(global_label "FADER_W"
+		(shape bidirectional)
 		(at 104.14 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1256,8 +1287,18 @@
 			(justify right bottom)
 		)
 		(uuid "27629759-fba4-456e-9e04-9e2384d69185")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_A"
+	(global_label "FADER_A"
+		(shape bidirectional)
 		(at 101.6 88.9 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1267,8 +1308,18 @@
 			(justify left bottom)
 		)
 		(uuid "30cb29b9-8540-4887-ac44-2798301a4bcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_B"
+	(global_label "FADER_B"
+		(shape bidirectional)
 		(at 101.6 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1278,8 +1329,18 @@
 			(justify left bottom)
 		)
 		(uuid "3cef621c-c6ca-40bf-b954-4bf065bca9c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "5V_MAIN"
+	(global_label "5V_MAIN"
+		(shape bidirectional)
 		(at 106.68 57.15 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1289,8 +1350,18 @@
 			(justify right bottom)
 		)
 		(uuid "3e5d0c06-eda0-45c1-9b9b-d252ce288266")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_MOTOR_OUT1"
+	(global_label "FADER_MOTOR_OUT1"
+		(shape bidirectional)
 		(at 104.14 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1300,8 +1371,18 @@
 			(justify right bottom)
 		)
 		(uuid "3ed33dac-ec3b-4822-86cb-1c264331434f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "5V_MAIN"
+	(global_label "5V_MAIN"
+		(shape bidirectional)
 		(at 63.5 26.67 90)
 		(fields_autoplaced yes)
 		(effects
@@ -1311,8 +1392,18 @@
 			(justify left bottom)
 		)
 		(uuid "3faf00cc-a66c-43f8-a97d-380859f71258")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_MOTOR_OUT2"
+	(global_label "FADER_MOTOR_OUT2"
+		(shape bidirectional)
 		(at 104.14 72.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1322,8 +1413,18 @@
 			(justify right bottom)
 		)
 		(uuid "4ad42b89-8e1a-476f-8d75-f1b8cf69c262")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_B"
+	(global_label "FADER_B"
+		(shape bidirectional)
 		(at 116.84 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1333,8 +1434,18 @@
 			(justify left bottom)
 		)
 		(uuid "4f8e95a0-bdf7-4a67-9f04-8790759a4a0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_MOTOR_IN1"
+	(global_label "FADER_MOTOR_IN1"
+		(shape bidirectional)
 		(at 40.64 52.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1344,8 +1455,18 @@
 			(justify right bottom)
 		)
 		(uuid "5883dabc-cccf-4b62-9277-12688bc29df6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "VCP"
+	(global_label "VCP"
+		(shape bidirectional)
 		(at 40.64 36.83 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1355,8 +1476,18 @@
 			(justify right bottom)
 		)
 		(uuid "77f48ff5-b5cb-4da3-9340-c164b1324a34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_MOTOR_OUT2"
+	(global_label "FADER_MOTOR_OUT2"
+		(shape bidirectional)
 		(at 71.12 54.61 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1366,8 +1497,18 @@
 			(justify left bottom)
 		)
 		(uuid "7eb0e41c-2db4-4ed5-afe6-5322b7daecb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "3V3_MAIN"
+	(global_label "3V3_MAIN"
+		(shape bidirectional)
 		(at 93.98 88.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1377,8 +1518,18 @@
 			(justify right bottom)
 		)
 		(uuid "873ac44c-42b4-45b7-aa79-2dfd89229c00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "5V_MAIN"
+	(global_label "5V_MAIN"
+		(shape bidirectional)
 		(at 106.68 25.4 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1388,8 +1539,18 @@
 			(justify right bottom)
 		)
 		(uuid "94a332ff-e211-46f5-a7b5-cc4822a1d38e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "5V_MAIN"
+	(global_label "5V_MAIN"
+		(shape bidirectional)
 		(at 106.68 45.72 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1399,8 +1560,18 @@
 			(justify right bottom)
 		)
 		(uuid "b3ca39e0-641e-40f4-adb4-30c70a5f6d3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_A"
+	(global_label "FADER_A"
+		(shape bidirectional)
 		(at 116.84 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1410,8 +1581,18 @@
 			(justify left bottom)
 		)
 		(uuid "b7a5c8a4-b511-4504-b708-1f56cadb0223")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_MOTOR_IN2"
+	(global_label "FADER_MOTOR_IN2"
+		(shape bidirectional)
 		(at 40.64 54.61 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1421,8 +1602,18 @@
 			(justify right bottom)
 		)
 		(uuid "cd41d9cd-8967-4828-bb97-8eb35beb7db4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_MOTOR_IN2"
+	(global_label "FADER_MOTOR_IN2"
+		(shape bidirectional)
 		(at 40.64 49.53 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1432,8 +1623,18 @@
 			(justify right bottom)
 		)
 		(uuid "d23039c6-a647-4d32-a0ab-0dfd234b3858")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_MOTOR_OUT1"
+	(global_label "FADER_MOTOR_OUT1"
+		(shape bidirectional)
 		(at 71.12 46.99 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1443,8 +1644,18 @@
 			(justify left bottom)
 		)
 		(uuid "e26585fc-0af7-47e7-a0ee-a9aa6377c943")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "VINT"
+	(global_label "VINT"
+		(shape bidirectional)
 		(at 106.68 35.56 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1454,8 +1665,18 @@
 			(justify right bottom)
 		)
 		(uuid "e3227472-4ce5-4944-9ba1-a1911b98cfbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.68 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_MOTOR_OUT1"
+	(global_label "FADER_MOTOR_OUT1"
+		(shape bidirectional)
 		(at 71.12 52.07 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1465,8 +1686,18 @@
 			(justify left bottom)
 		)
 		(uuid "ec5c0346-d35f-46bd-a473-a4fef0aab54b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "NSLEEP"
+	(global_label "NSLEEP"
+		(shape bidirectional)
 		(at 40.64 34.29 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1476,8 +1707,18 @@
 			(justify right bottom)
 		)
 		(uuid "ecc3eb64-8207-49c9-a42e-c7a1af2b06d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_MOTOR_OUT2"
+	(global_label "FADER_MOTOR_OUT2"
+		(shape bidirectional)
 		(at 71.12 49.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1487,8 +1728,18 @@
 			(justify left bottom)
 		)
 		(uuid "f092cd6b-fd71-40d7-a55d-3b5ec656f0c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "FADER_MOTOR_IN1"
+	(global_label "FADER_MOTOR_IN1"
+		(shape bidirectional)
 		(at 40.64 46.99 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1498,6 +1749,15 @@
 			(justify right bottom)
 		)
 		(uuid "f5f3556d-8a5f-402e-84ab-bad52da747d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Driver_Motor:DRV8833PWP")
@@ -1661,7 +1921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -1936,7 +2196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 93.98 97.79 0)
 			(effects
 				(font
@@ -2152,7 +2412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 114.3 57.15 0)
 			(effects
 				(font
@@ -2219,7 +2479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 40.64 41.91 0)
 			(effects
 				(font
@@ -2353,7 +2613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 114.3 35.56 0)
 			(effects
 				(font
@@ -2488,7 +2748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 40.64 39.37 0)
 			(effects
 				(font
