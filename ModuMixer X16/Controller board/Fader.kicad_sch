@@ -5,22 +5,22 @@
 	(uuid "19f776a5-fc50-49d1-8327-a1769599e880")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Screw_Terminal_01x02"
+		(symbol "Connector_Generic:Conn_02x03_Counter_Clockwise"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 1.27 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_02x03_Counter_Clockwise"
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "screw terminal"
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,21 +72,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x02_1_1"
+			(symbol "Conn_02x03_Counter_Clockwise_1_1"
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -95,10 +84,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -107,10 +95,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -119,150 +106,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Screw_Terminal_01x03"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x03_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.27 -3.81)
+					(end 3.81 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -271,9 +117,9 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -282,10 +128,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -294,80 +139,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -423,6 +197,60 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1419,7 +1247,7 @@
 		(uuid "26aa409a-f3f2-4946-b4f5-b71f2d86617f")
 	)
 	(label "FADER_W"
-		(at 92.71 76.2 180)
+		(at 104.14 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1463,7 +1291,7 @@
 		(uuid "3e5d0c06-eda0-45c1-9b9b-d252ce288266")
 	)
 	(label "FADER_MOTOR_OUT1"
-		(at 92.71 60.96 180)
+		(at 104.14 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1485,7 +1313,7 @@
 		(uuid "3faf00cc-a66c-43f8-a97d-380859f71258")
 	)
 	(label "FADER_MOTOR_OUT2"
-		(at 92.71 63.5 180)
+		(at 104.14 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1496,13 +1324,13 @@
 		(uuid "4ad42b89-8e1a-476f-8d75-f1b8cf69c262")
 	)
 	(label "FADER_B"
-		(at 92.71 78.74 180)
+		(at 116.84 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4f8e95a0-bdf7-4a67-9f04-8790759a4a0f")
 	)
@@ -1573,13 +1401,13 @@
 		(uuid "b3ca39e0-641e-40f4-adb4-30c70a5f6d3f")
 	)
 	(label "FADER_A"
-		(at 92.71 73.66 180)
+		(at 116.84 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b7a5c8a4-b511-4504-b708-1f56cadb0223")
 	)
@@ -1798,7 +1626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26714748-40d0-4947-b2df-f4c7ffae53da")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0135"
 			(at 55.88 68.58 0)
 			(effects
 				(font
@@ -1848,7 +1676,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR0108")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -1864,7 +1692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26d356b6-2a04-43b3-9227-6ec5c8847795")
-		(property "Reference" "R17"
+		(property "Reference" "R22"
 			(at 109.2199 22.86 0)
 			(effects
 				(font
@@ -1918,7 +1746,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "R17")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1934,7 +1762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c3e2e46-34c1-4f81-8cee-74546e35ca85")
-		(property "Reference" "C41"
+		(property "Reference" "C64"
 			(at 109.2199 41.91 0)
 			(effects
 				(font
@@ -1988,7 +1816,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "C41")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -2004,7 +1832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a39b650-2b13-4009-bf44-525b01f67ded")
-		(property "Reference" "JP5"
+		(property "Reference" "JP6"
 			(at 97.79 82.55 0)
 			(effects
 				(font
@@ -2056,7 +1884,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "JP5")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -2072,7 +1900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57ad4311-5c88-4be7-8d00-87616a0f6780")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0136"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -2123,7 +1951,87 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR0109")
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
+		(at 109.22 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67662940-9a0f-4d9c-901f-c95125f0c5bc")
+		(property "Reference" "J7"
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Counter_Clockwise"
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 109.22 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0bfa53e3-b8fe-431a-ba95-779d0d1ef1b6")
+		)
+		(pin "3"
+			(uuid "ec37fd89-7787-4919-9a5f-44645473df4c")
+		)
+		(pin "6"
+			(uuid "8c8912bd-fd9d-4e02-a0bf-ff39bc8b0b66")
+		)
+		(pin "4"
+			(uuid "90774b20-642b-4665-8541-255caec53cce")
+		)
+		(pin "1"
+			(uuid "ff5f78e2-0031-46bc-9ef3-8017ad50c050")
+		)
+		(pin "2"
+			(uuid "4e81a2b7-2118-4fb7-b495-a352a800feba")
+		)
+		(instances
+			(project ""
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2139,7 +2047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74d15b13-57ea-4eb0-8f7c-a058d1060700")
-		(property "Reference" "C40"
+		(property "Reference" "C63"
 			(at 109.2199 31.75 0)
 			(effects
 				(font
@@ -2193,7 +2101,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "C40")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -2209,7 +2117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87448a48-bda4-443b-bedd-01954e92cf87")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0138"
 			(at 120.65 57.15 0)
 			(effects
 				(font
@@ -2259,77 +2167,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 97.79 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90824a4e-3d4d-49d3-a7ee-2a1c98651f90")
-		(property "Reference" "J5"
-			(at 100.33 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 100.33 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
-			(at 97.79 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c5cb9f5b-ee27-4923-b14d-89a8f561edc7")
-		)
-		(pin "1"
-			(uuid "3b69875e-e615-4ee4-9bc9-638c7afbcd4f")
-		)
-		(instances
-			(project "ModuMixer X16"
-				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "J5")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -2345,7 +2183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ecbf15c-82d7-4e91-9cc0-1f7c48261836")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0134"
 			(at 34.29 41.91 0)
 			(effects
 				(font
@@ -2396,80 +2234,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 97.79 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a42ebd6c-9986-4ba4-a83f-433340abb3f7")
-		(property "Reference" "J6"
-			(at 100.33 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 100.33 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
-			(at 97.79 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 97.79 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18a5b171-618c-402a-93bb-6be18302c76c")
-		)
-		(pin "2"
-			(uuid "7b3ed518-c8d5-4bd9-a11e-d775f59a6522")
-		)
-		(pin "3"
-			(uuid "fd546728-5d96-4fab-8c4b-c2ba673f8e32")
-		)
-		(instances
-			(project "ModuMixer X16"
-				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "J6")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -2485,7 +2250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6dc3533-998e-43f6-a2ce-ab0572bc289f")
-		(property "Reference" "JP6"
+		(property "Reference" "JP7"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -2537,7 +2302,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "JP6")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -2553,7 +2318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c84b0bdd-346b-4e87-a793-bd9ebb6b4cf9")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0137"
 			(at 120.65 35.56 0)
 			(effects
 				(font
@@ -2603,7 +2368,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR0110")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -2619,7 +2384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce7145f8-e5a7-45a3-95b6-75a32f94f6df")
-		(property "Reference" "C42"
+		(property "Reference" "C65"
 			(at 110.49 49.53 90)
 			(effects
 				(font
@@ -2671,7 +2436,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "C42")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -2687,7 +2452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3f2b947-f0b0-4422-bd81-d99f7f96ce58")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0133"
 			(at 34.29 39.37 0)
 			(effects
 				(font
@@ -2738,7 +2503,7 @@
 		(instances
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/9cb4a910-e6cc-4057-93b6-8f2942eae9a7"
-					(reference "#PWR0106")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
