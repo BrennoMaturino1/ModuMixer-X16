@@ -1353,7 +1353,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1923,7 +1923,8 @@
 		)
 		(uuid "ec7b9bb2-9fe5-4e95-9db8-7fa4074172de")
 	)
-	(label "READY_IN"
+	(global_label "READY_IN"
+		(shape bidirectional)
 		(at 88.9 38.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1933,8 +1934,18 @@
 			(justify right bottom)
 		)
 		(uuid "1c0781e7-9f4c-4eea-bb4d-e3e63d284c43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "+12V_MAIN"
+	(global_label "+12V_MAIN"
+		(shape bidirectional)
 		(at 27.94 27.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1944,8 +1955,18 @@
 			(justify right bottom)
 		)
 		(uuid "30a6fcd8-c293-40c6-a3bf-3b7f7fb5ed35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "5V_MAIN_FB"
+	(global_label "5V_MAIN_FB"
+		(shape bidirectional)
 		(at 49.53 36.83 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1955,8 +1976,18 @@
 			(justify left bottom)
 		)
 		(uuid "4c7b2967-3944-448f-97e1-fbc44148d98a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "3V3_MAIN_FB"
+	(global_label "3V3_MAIN_FB"
+		(shape bidirectional)
 		(at 49.53 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1966,8 +1997,18 @@
 			(justify left bottom)
 		)
 		(uuid "529c40b5-cd65-4562-9a4c-264d4592f81e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "IN_FET_GATE"
+	(global_label "IN_FET_GATE"
+		(shape bidirectional)
 		(at 104.14 33.02 90)
 		(fields_autoplaced yes)
 		(effects
@@ -1977,8 +2018,18 @@
 			(justify left bottom)
 		)
 		(uuid "6c0a6a26-ec71-46d3-ad60-0bff8f352f23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "12V_MAIN"
+	(global_label "12V_MAIN"
+		(shape bidirectional)
 		(at 113.03 34.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1988,8 +2039,18 @@
 			(justify left bottom)
 		)
 		(uuid "799c6f61-57ce-4513-bb42-ae5705576c3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "+12V_MAIN"
+	(global_label "+12V_MAIN"
+		(shape bidirectional)
 		(at 27.94 64.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1999,8 +2060,18 @@
 			(justify right bottom)
 		)
 		(uuid "8011d147-73ae-4426-be49-df39aeab7624")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "5V_MAIN"
+	(global_label "5V_MAIN"
+		(shape bidirectional)
 		(at 73.66 27.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2010,8 +2081,18 @@
 			(justify left bottom)
 		)
 		(uuid "a08c05fa-3afe-4dae-9bec-c9ba335eb557")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "12V_MAIN"
+	(global_label "12V_MAIN"
+		(shape bidirectional)
 		(at 133.35 24.13 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2021,8 +2102,18 @@
 			(justify left bottom)
 		)
 		(uuid "ac203d9d-24b8-47a5-94b1-a8a86938bc60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.35 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "12V_MOD"
+	(global_label "12V_MOD"
+		(shape bidirectional)
 		(at 113.03 22.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2032,8 +2123,18 @@
 			(justify left bottom)
 		)
 		(uuid "d6193e87-7476-4d84-980e-5962765ec26f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "3V3_MAIN"
+	(global_label "3V3_MAIN"
+		(shape bidirectional)
 		(at 73.66 64.77 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2043,8 +2144,18 @@
 			(justify left bottom)
 		)
 		(uuid "df2165e2-a49d-4b1a-9b7a-4f4260949001")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
-	(label "12V_MOD"
+	(global_label "12V_MOD"
+		(shape bidirectional)
 		(at 148.59 24.13 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2054,6 +2165,15 @@
 			(justify left bottom)
 		)
 		(uuid "fb15f9b5-cbd3-46f9-95a9-dbb7fbf6ebce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2461,7 +2581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 73.66 72.39 0)
 			(effects
 				(font
@@ -2595,7 +2715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 27.94 72.39 0)
 			(effects
 				(font
@@ -2731,7 +2851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 33.02 35.56 0)
 			(effects
 				(font
@@ -2797,7 +2917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 49.53 81.28 0)
 			(effects
 				(font
@@ -2863,7 +2983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 27.94 35.56 0)
 			(effects
 				(font
@@ -2999,7 +3119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 49.53 44.45 0)
 			(effects
 				(font
@@ -3065,7 +3185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 133.35 31.75 0)
 			(effects
 				(font
@@ -3551,7 +3671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 54.61 44.45 0)
 			(effects
 				(font
@@ -3687,7 +3807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 54.61 81.28 0)
 			(effects
 				(font
@@ -4349,7 +4469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 148.59 31.75 0)
 			(effects
 				(font
@@ -4485,7 +4605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 104.14 43.18 0)
 			(effects
 				(font
@@ -4706,7 +4826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 33.02 72.39 0)
 			(effects
 				(font
@@ -4871,7 +4991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
 			(at 73.66 35.56 0)
 			(effects
 				(font

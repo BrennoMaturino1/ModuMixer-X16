@@ -2561,6 +2561,28 @@
 			)
 		)
 	)
+	(global_label "MCU_VDD"
+		(shape bidirectional)
+		(at 114.3 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c97bce1-e3b7-4ff0-8215-674c2ac7a01c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 21.5454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PERIPHERAL_VDD"
 		(shape bidirectional)
 		(at 252.73 194.31 0)
@@ -2603,6 +2625,27 @@
 			)
 		)
 	)
+	(global_label "MAIN_BOOT"
+		(shape bidirectional)
+		(at 114.3 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2172cfb3-76a4-48b0-959f-fab998a7b13a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENCODER3_A"
 		(shape bidirectional)
 		(at 66.04 172.72 90)
@@ -2616,6 +2659,27 @@
 		(uuid "25f64cce-f00d-42af-b027-06e404827590")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.04 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PERIPHERAL_BOOT"
+		(shape bidirectional)
+		(at 107.95 133.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a8c12f6-58b9-4ace-ba1e-d26d23d59d13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.95 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3632,6 +3696,27 @@
 			)
 		)
 	)
+	(global_label "PERIPHERAL_BOOT"
+		(shape bidirectional)
+		(at 116.84 133.35 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "979c7f42-eda2-4dc7-a3d3-8e4ca21ad094")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BTN10"
 		(shape bidirectional)
 		(at 83.82 208.28 270)
@@ -4283,6 +4368,27 @@
 			)
 		)
 	)
+	(global_label "MAIN_BOOT"
+		(shape bidirectional)
+		(at 105.41 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1de48fb-6e0a-47ce-a3cd-6c853eb5b0a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENCODER4_A"
 		(shape bidirectional)
 		(at 71.12 172.72 90)
@@ -4594,6 +4700,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PERIPHERAL_VDD"
+		(shape bidirectional)
+		(at 116.84 125.73 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdbdd04d-a5ff-4140-8c11-4ec8aa759201")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 105.6073 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5915,6 +6043,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 105.41 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ff631ff-cd79-4d52-9d10-5607044484ae")
+		(property "Reference" "#PWR0145"
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2855b21e-a94b-4398-9e6c-2efdb8c61100")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/48ac6369-c180-4f0f-9890-024f5b33be23"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 223.52 77.47 0)
 		(unit 1)
@@ -6799,6 +6993,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 114.3 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f583d44-de7f-403d-a698-86d3ac255496")
+		(property "Reference" "R24"
+			(at 116.84 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 116.84 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 112.522 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f03d291-a21a-4d25-9d5d-3edd6302f5bc")
+		)
+		(pin "2"
+			(uuid "4c03e6f6-56d4-4277-8448-dffb7c212e4e")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/48ac6369-c180-4f0f-9890-024f5b33be23"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 196.85 80.01 270)
 		(unit 1)
@@ -6860,6 +7124,76 @@
 			(project ""
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/48ac6369-c180-4f0f-9890-024f5b33be23"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4a0a978-2b0a-4fe0-9025-fc0ff552088d")
+		(property "Reference" "R26"
+			(at 119.38 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 119.38 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.062 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77ddd972-65c7-4dd2-b277-9af3308fa765")
+		)
+		(pin "2"
+			(uuid "323bbe82-5372-4b87-9218-a7466ef666cd")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/48ac6369-c180-4f0f-9890-024f5b33be23"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6929,6 +7263,76 @@
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/48ac6369-c180-4f0f-9890-024f5b33be23"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6233d2c-a31f-4f61-a177-f76debc64ba8")
+		(property "Reference" "R23"
+			(at 107.95 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 107.95 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 103.632 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "488a8c65-d8d4-4a4c-b525-3e545f086cd1")
+		)
+		(pin "2"
+			(uuid "73a88a43-4a38-41be-b89d-93131657fae6")
+		)
+		(instances
+			(project ""
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/48ac6369-c180-4f0f-9890-024f5b33be23"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -7068,6 +7472,72 @@
 			(project ""
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/48ac6369-c180-4f0f-9890-024f5b33be23"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 125.73 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f93dbe-3dcf-4e04-ae44-67b8219f96ec")
+		(property "Reference" "#PWR0146"
+			(at 107.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
+			(at 107.95 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4b60f4e-3a05-4e3a-bc62-d2360ede3e8e")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/48ac6369-c180-4f0f-9890-024f5b33be23"
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -7471,6 +7941,76 @@
 			(project ""
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/48ac6369-c180-4f0f-9890-024f5b33be23"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f02aa1d9-4419-4634-b3f5-835fd104ffb5")
+		(property "Reference" "R25"
+			(at 110.49 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 110.49 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 106.172 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04f558bf-afad-4dfe-8466-4cb6120f1efa")
+		)
+		(pin "2"
+			(uuid "687db11a-1403-416d-99b5-069d9ef8855f")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/48ac6369-c180-4f0f-9890-024f5b33be23"
+					(reference "R25")
 					(unit 1)
 				)
 			)

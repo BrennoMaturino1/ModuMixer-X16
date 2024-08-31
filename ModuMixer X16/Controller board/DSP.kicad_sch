@@ -4321,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 120.65) (xy 80.01 116.84)
+			(xy 72.39 120.65) (xy 72.39 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4331,7 +4331,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 101.6) (xy 80.01 97.79)
+			(xy 72.39 101.6) (xy 72.39 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4361,7 +4361,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 101.6) (xy 95.25 101.6)
+			(xy 72.39 101.6) (xy 87.63 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4371,7 +4371,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 120.65) (xy 80.01 120.65)
+			(xy 87.63 120.65) (xy 72.39 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4481,7 +4481,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 120.65) (xy 95.25 114.3)
+			(xy 87.63 120.65) (xy 87.63 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4581,7 +4581,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 101.6) (xy 95.25 95.25)
+			(xy 87.63 101.6) (xy 87.63 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5055,7 +5055,7 @@
 	)
 	(global_label "HP_R_PRE"
 		(shape bidirectional)
-		(at 80.01 92.71 180)
+		(at 72.39 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5065,7 +5065,7 @@
 		)
 		(uuid "326b36a3-9225-40bd-b4e9-ebc2e496078b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 92.71 0)
+			(at 72.39 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,6 +5175,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DSP_BOOT"
+		(shape bidirectional)
+		(at 123.19 58.42 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f2af624-9a38-4287-9513-da13e1855c3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 72.1322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5307,7 +5329,7 @@
 	)
 	(global_label "HP_L_PRE"
 		(shape bidirectional)
-		(at 80.01 111.76 180)
+		(at 72.39 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5317,7 +5339,7 @@
 		)
 		(uuid "54732993-62cf-49c7-af60-3e691a5ecdd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 111.76 0)
+			(at 72.39 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +5371,7 @@
 	)
 	(global_label "HP_L"
 		(shape bidirectional)
-		(at 95.25 114.3 0)
+		(at 87.63 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5359,7 +5381,7 @@
 		)
 		(uuid "664a118e-d209-4ee2-9b43-f44f21381236")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 114.3 0)
+			(at 87.63 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,6 +6041,28 @@
 			)
 		)
 	)
+	(global_label "DSP_3V3"
+		(shape bidirectional)
+		(at 132.08 50.8 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0e575ab-56e3-4b8c-9a2b-a1cc7ce21e6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 38.4788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HPR"
 		(shape bidirectional)
 		(at 21.59 60.96 180)
@@ -6168,7 +6212,7 @@
 	)
 	(global_label "HP_R"
 		(shape bidirectional)
-		(at 95.25 95.25 0)
+		(at 87.63 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6178,7 +6222,7 @@
 		)
 		(uuid "bfd1ddf5-59d5-4b3a-8ee3-a4c7c30a963d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 95.25 0)
+			(at 87.63 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,6 +6584,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DSP_BOOT"
+		(shape bidirectional)
+		(at 132.08 58.42 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e3b886c8-69f3-495b-a4fe-b2f7457414e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 72.1322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7548,7 +7614,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM324")
-		(at 87.63 114.3 0)
+		(at 80.01 114.3 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7557,7 +7623,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fffb8db-778e-451a-b901-9c4ac7b7f1b8")
 		(property "Reference" "U8"
-			(at 87.63 104.14 0)
+			(at 80.01 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7565,7 +7631,7 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at 87.63 106.68 0)
+			(at 80.01 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7573,7 +7639,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 86.36 111.76 0)
+			(at 78.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7582,7 +7648,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 88.9 109.22 0)
+			(at 81.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7591,7 +7657,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 87.63 114.3 0)
+			(at 80.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9764,7 +9830,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM324")
-		(at 87.63 95.25 0)
+		(at 80.01 95.25 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9773,7 +9839,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e0cbc18-613f-40c6-8de7-fa66b2f0c036")
 		(property "Reference" "U8"
-			(at 87.63 85.09 0)
+			(at 80.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +9847,7 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at 87.63 87.63 0)
+			(at 80.01 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +9855,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 86.36 92.71 0)
+			(at 78.74 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,7 +9864,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
-			(at 88.9 90.17 0)
+			(at 81.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9807,7 +9873,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 87.63 95.25 0)
+			(at 80.01 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,6 +9928,72 @@
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3684ed58-8584-4dc8-bb91-a549cf1738bd"
 					(reference "U8")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e786212-b801-4361-8e56-ac3c1f6b6f83")
+		(property "Reference" "#PWR0147"
+			(at 123.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global global_label with name \"GND\" , ground"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33a6fecc-4bb5-4856-8879-6256cb12810e")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3684ed58-8584-4dc8-bb91-a549cf1738bd"
+					(reference "#PWR0147")
+					(unit 1)
 				)
 			)
 		)
@@ -10272,6 +10404,76 @@
 			(project ""
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3684ed58-8584-4dc8-bb91-a549cf1738bd"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 123.19 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6644833f-d566-4246-aabc-df7cbf04d679")
+		(property "Reference" "R27"
+			(at 125.73 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 125.73 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 121.412 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69034ac4-9ba3-4a1c-81bd-3170d5aa2033")
+		)
+		(pin "2"
+			(uuid "66f74641-4055-42ce-89aa-2697823c4795")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3684ed58-8584-4dc8-bb91-a549cf1738bd"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -12544,6 +12746,76 @@
 			(project "ModuMixer X16"
 				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3684ed58-8584-4dc8-bb91-a549cf1738bd"
 					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c25d9eb1-d473-479a-a48f-15c5bc06279a")
+		(property "Reference" "R28"
+			(at 134.62 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 134.62 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 130.302 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9866b312-bbbe-4c97-8bd4-41d6cc12e75e")
+		)
+		(pin "2"
+			(uuid "f92bf9bf-47de-419d-9d66-8d99ea678957")
+		)
+		(instances
+			(project "ModuMixer X16"
+				(path "/1d80c8ed-e175-4f30-b143-8bf97252529d/3684ed58-8584-4dc8-bb91-a549cf1738bd"
+					(reference "R28")
 					(unit 1)
 				)
 			)
